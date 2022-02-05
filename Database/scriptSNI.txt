@@ -1,0 +1,59 @@
+-- MySQL Workbench Forward Engineering
+
+SET @OLD_UNIQUE_CHECKS=@@UNIQUE_CHECKS, UNIQUE_CHECKS=0;
+SET @OLD_FOREIGN_KEY_CHECKS=@@FOREIGN_KEY_CHECKS, FOREIGN_KEY_CHECKS=0;
+SET @OLD_SQL_MODE=@@SQL_MODE, SQL_MODE='TRADITIONAL,ALLOW_INVALID_DATES';
+
+-- -----------------------------------------------------
+-- Schema mydb
+-- -----------------------------------------------------
+-- -----------------------------------------------------
+-- Schema waf
+-- -----------------------------------------------------
+
+-- -----------------------------------------------------
+-- Schema waf
+-- -----------------------------------------------------
+CREATE SCHEMA IF NOT EXISTS `waf` DEFAULT CHARACTER SET utf8 ;
+USE `waf` ;
+
+-- -----------------------------------------------------
+-- Table `waf`.`korisnik`
+-- -----------------------------------------------------
+CREATE TABLE IF NOT EXISTS `waf`.`korisnik` (
+  `idKorisnika` INT(11) NOT NULL AUTO_INCREMENT,
+  `username` VARCHAR(45) NOT NULL,
+  `password` VARCHAR(512) NOT NULL,
+  `role` VARCHAR(45) NOT NULL,
+  PRIMARY KEY (`idKorisnika`),
+  UNIQUE INDEX `userame_UNIQUE` (`username` ASC))
+ENGINE = InnoDB
+AUTO_INCREMENT = 15
+DEFAULT CHARACTER SET = utf8;
+
+
+-- -----------------------------------------------------
+-- Table `waf`.`artikl`
+-- -----------------------------------------------------
+CREATE TABLE IF NOT EXISTS `waf`.`artikl` (
+  `code` VARCHAR(45) NOT NULL,
+  `name` VARCHAR(45) NOT NULL,
+  `producer` VARCHAR(45) NOT NULL,
+  `price` DOUBLE NOT NULL,
+  `KORISNIK_idKorisnika` INT(11) NULL DEFAULT NULL,
+  `idArtikl` INT(11) NOT NULL AUTO_INCREMENT,
+  PRIMARY KEY (`idArtikl`),
+  INDEX `fk_ARTIKL_KORISNIK_idx` (`KORISNIK_idKorisnika` ASC),
+  CONSTRAINT `fk_ARTIKL_KORISNIK`
+    FOREIGN KEY (`KORISNIK_idKorisnika`)
+    REFERENCES `waf`.`korisnik` (`idKorisnika`)
+    ON DELETE NO ACTION
+    ON UPDATE NO ACTION)
+ENGINE = InnoDB
+AUTO_INCREMENT = 13
+DEFAULT CHARACTER SET = utf8;
+
+
+SET SQL_MODE=@OLD_SQL_MODE;
+SET FOREIGN_KEY_CHECKS=@OLD_FOREIGN_KEY_CHECKS;
+SET UNIQUE_CHECKS=@OLD_UNIQUE_CHECKS;

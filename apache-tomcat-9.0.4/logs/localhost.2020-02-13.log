@@ -1,0 +1,90 @@
+13-Feb-2020 00:00:43.249 INFO [main] org.apache.catalina.core.ApplicationContext.log No Spring WebApplicationInitializer types detected on classpath
+13-Feb-2020 00:00:44.796 INFO [main] org.apache.catalina.core.ApplicationContext.log Initializing Spring root WebApplicationContext
+13-Feb-2020 00:01:23.553 INFO [main] org.apache.catalina.core.ApplicationContext.log No Spring WebApplicationInitializer types detected on classpath
+13-Feb-2020 00:01:24.693 INFO [main] org.apache.catalina.core.ApplicationContext.log Initializing Spring root WebApplicationContext
+13-Feb-2020 00:01:45.228 INFO [main] org.apache.catalina.core.ApplicationContext.log Initializing Spring FrameworkServlet 'cas'
+13-Feb-2020 00:02:09.810 SEVERE [https-jsse-nio-8443-exec-2] org.apache.catalina.core.StandardWrapperValve.invoke Servlet.service() for servlet [cas] in context with path [/cas] threw exception [Request processing failed; nested exception is java.lang.IllegalStateException: Cannot create a session after the response has been committed] with root cause
+ java.lang.IllegalStateException: Cannot create a session after the response has been committed
+	at org.apache.catalina.connector.Request.doGetSession(Request.java:2937)
+	at org.apache.catalina.connector.Request.getSession(Request.java:2374)
+	at org.apache.catalina.connector.RequestFacade.getSession(RequestFacade.java:908)
+	at org.springframework.webflow.context.servlet.HttpSessionMap.getMutex(HttpSessionMap.java:98)
+	at org.springframework.webflow.core.collection.LocalSharedAttributeMap.getMutex(LocalSharedAttributeMap.java:39)
+	at org.springframework.webflow.conversation.impl.ContainedConversation.unlock(ContainedConversation.java:108)
+	at org.springframework.webflow.execution.repository.support.ConversationBackedFlowExecutionLock.unlock(ConversationBackedFlowExecutionLock.java:55)
+	at org.springframework.webflow.executor.FlowExecutorImpl.resumeExecution(FlowExecutorImpl.java:178)
+	at org.springframework.webflow.mvc.servlet.FlowHandlerAdapter.handle(FlowHandlerAdapter.java:183)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:925)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:856)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:936)
+	at org.springframework.web.servlet.FrameworkServlet.doPost(FrameworkServlet.java:838)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:660)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:812)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:741)
+	at org.jasig.cas.web.init.SafeDispatcherServlet.service(SafeDispatcherServlet.java:125)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:88)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.springframework.web.filter.DelegatingFilterProxy.invokeDelegate(DelegatingFilterProxy.java:343)
+	at org.springframework.web.filter.DelegatingFilterProxy.doFilter(DelegatingFilterProxy.java:260)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at com.github.inspektr.common.web.ClientInfoThreadLocalFilter.doFilter(ClientInfoThreadLocalFilter.java:63)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:199)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:96)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:619)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:140)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:81)
+	at org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:651)
+	at org.apache.catalina.authenticator.SingleSignOn.invoke(SingleSignOn.java:240)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:87)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:342)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:417)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:66)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:754)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1376)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+
+13-Feb-2020 11:45:46.074 INFO [main] org.apache.catalina.core.ApplicationContext.log No Spring WebApplicationInitializer types detected on classpath
+13-Feb-2020 11:45:46.527 INFO [main] org.apache.catalina.core.ApplicationContext.log Initializing Spring root WebApplicationContext
+13-Feb-2020 11:45:54.027 INFO [main] org.apache.catalina.core.ApplicationContext.log Initializing Spring FrameworkServlet 'cas'
+13-Feb-2020 11:45:55.417 INFO [main] org.apache.catalina.core.ApplicationContext.log Closing Spring root WebApplicationContext
+13-Feb-2020 11:46:13.897 INFO [main] org.apache.catalina.core.ApplicationContext.log No Spring WebApplicationInitializer types detected on classpath
+13-Feb-2020 11:46:14.241 INFO [main] org.apache.catalina.core.ApplicationContext.log Initializing Spring root WebApplicationContext
+13-Feb-2020 11:46:20.985 INFO [main] org.apache.catalina.core.ApplicationContext.log Initializing Spring FrameworkServlet 'cas'
+13-Feb-2020 12:55:23.855 INFO [main] org.apache.catalina.core.ApplicationContext.log No Spring WebApplicationInitializer types detected on classpath
+13-Feb-2020 12:55:24.218 INFO [main] org.apache.catalina.core.ApplicationContext.log Initializing Spring root WebApplicationContext
+13-Feb-2020 12:55:30.664 INFO [main] org.apache.catalina.core.ApplicationContext.log Initializing Spring FrameworkServlet 'cas'
+13-Feb-2020 21:53:49.376 INFO [main] org.apache.catalina.core.ApplicationContext.log No Spring WebApplicationInitializer types detected on classpath
+13-Feb-2020 21:53:49.900 INFO [main] org.apache.catalina.core.ApplicationContext.log Initializing Spring root WebApplicationContext
+13-Feb-2020 21:54:07.912 INFO [main] org.apache.catalina.core.ApplicationContext.log No Spring WebApplicationInitializer types detected on classpath
+13-Feb-2020 21:54:08.265 INFO [main] org.apache.catalina.core.ApplicationContext.log Initializing Spring root WebApplicationContext
+13-Feb-2020 21:54:14.926 INFO [main] org.apache.catalina.core.ApplicationContext.log Initializing Spring FrameworkServlet 'cas'
+13-Feb-2020 21:59:01.139 INFO [main] org.apache.catalina.core.ApplicationContext.log No Spring WebApplicationInitializer types detected on classpath
+13-Feb-2020 21:59:01.554 INFO [main] org.apache.catalina.core.ApplicationContext.log Initializing Spring root WebApplicationContext
+13-Feb-2020 21:59:09.049 INFO [main] org.apache.catalina.core.ApplicationContext.log Initializing Spring FrameworkServlet 'cas'
+13-Feb-2020 22:38:47.964 INFO [main] org.apache.catalina.core.ApplicationContext.log No Spring WebApplicationInitializer types detected on classpath
+13-Feb-2020 22:38:48.361 INFO [main] org.apache.catalina.core.ApplicationContext.log Initializing Spring root WebApplicationContext
+13-Feb-2020 22:38:55.748 INFO [main] org.apache.catalina.core.ApplicationContext.log Initializing Spring FrameworkServlet 'cas'
+13-Feb-2020 22:39:09.599 INFO [main] org.apache.catalina.core.ApplicationContext.log No Spring WebApplicationInitializer types detected on classpath
+13-Feb-2020 22:39:09.958 INFO [main] org.apache.catalina.core.ApplicationContext.log Initializing Spring root WebApplicationContext
+13-Feb-2020 22:39:16.710 INFO [main] org.apache.catalina.core.ApplicationContext.log Initializing Spring FrameworkServlet 'cas'
+13-Feb-2020 22:55:17.791 INFO [main] org.apache.catalina.core.ApplicationContext.log No Spring WebApplicationInitializer types detected on classpath
+13-Feb-2020 22:55:18.166 INFO [main] org.apache.catalina.core.ApplicationContext.log Initializing Spring root WebApplicationContext
+13-Feb-2020 22:55:24.761 INFO [main] org.apache.catalina.core.ApplicationContext.log Initializing Spring FrameworkServlet 'cas'
+13-Feb-2020 22:58:45.327 INFO [main] org.apache.catalina.core.ApplicationContext.log No Spring WebApplicationInitializer types detected on classpath
+13-Feb-2020 22:58:45.718 INFO [main] org.apache.catalina.core.ApplicationContext.log Initializing Spring root WebApplicationContext
+13-Feb-2020 22:58:52.331 INFO [main] org.apache.catalina.core.ApplicationContext.log Initializing Spring FrameworkServlet 'cas'
+13-Feb-2020 23:31:27.021 INFO [main] org.apache.catalina.core.ApplicationContext.log No Spring WebApplicationInitializer types detected on classpath
+13-Feb-2020 23:31:27.376 INFO [main] org.apache.catalina.core.ApplicationContext.log Initializing Spring root WebApplicationContext
+13-Feb-2020 23:31:34.642 INFO [main] org.apache.catalina.core.ApplicationContext.log Initializing Spring FrameworkServlet 'cas'

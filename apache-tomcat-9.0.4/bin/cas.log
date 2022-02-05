@@ -1,0 +1,1838 @@
+2018-03-10 18:19:21,765 INFO [com.github.inspektr.audit.support.Slf4jLoggingAuditTrailManager] - Audit trail record BEGIN
+=============================================================
+WHO: audit:unknown
+WHAT: ST-2-T9PxRVwVHWyg9kXVaTyi-cas01.example.org
+ACTION: SERVICE_TICKET_VALIDATED
+APPLICATION: CAS
+WHEN: Sat Mar 10 18:19:21 CET 2018
+CLIENT IP ADDRESS: 127.0.0.1
+SERVER IP ADDRESS: 127.0.1.1
+=============================================================
+
+
+2018-03-10 18:19:41,094 INFO [com.github.inspektr.audit.support.Slf4jLoggingAuditTrailManager] - Audit trail record BEGIN
+=============================================================
+WHO: audit:unknown
+WHAT: TGT-2-7cdtr04YWAbwhk5IVSyunfiyPETf7uDN6brZ2yte1alOMfXpfI-cas01.example.org
+ACTION: TICKET_GRANTING_TICKET_DESTROYED
+APPLICATION: CAS
+WHEN: Sat Mar 10 18:19:41 CET 2018
+CLIENT IP ADDRESS: 127.0.0.1
+SERVER IP ADDRESS: 127.0.1.1
+=============================================================
+
+
+2018-03-10 18:20:27,248 INFO [org.jasig.cas.services.DefaultServicesManagerImpl] - Reloading registered services.
+2018-03-10 18:20:27,270 INFO [org.jasig.cas.services.DefaultServicesManagerImpl] - Loaded 1 services.
+2018-03-10 18:21:13,593 INFO [org.jasig.cas.util.AutowiringSchedulerFactoryBean] - Shutting down Quartz Scheduler
+2018-03-10 18:21:29,170 INFO [org.jasig.cas.services.DefaultServicesManagerImpl] - Loaded 1 services.
+2018-03-10 18:21:30,084 INFO [org.jasig.cas.util.AutowiringSchedulerFactoryBean] - Starting Quartz Scheduler now
+2018-03-10 18:21:31,187 INFO [org.jasig.cas.web.flow.InitialFlowSetupAction] - Setting path for cookies to: /cas/
+2018-03-10 18:21:31,187 INFO [org.jasig.cas.web.flow.InitialFlowSetupAction] - Setting path for cookies to: /cas/
+2018-03-10 18:21:33,217 INFO [org.jasig.cas.authentication.PolicyBasedAuthenticationManager] - SearchModeSearchDatabaseAuthenticationHandler successfully authenticated admin+password
+2018-03-10 18:21:33,218 INFO [org.jasig.cas.authentication.PolicyBasedAuthenticationManager] - Authenticated admin with credentials [admin+password].
+2018-03-10 18:21:33,222 INFO [com.github.inspektr.audit.support.Slf4jLoggingAuditTrailManager] - Audit trail record BEGIN
+=============================================================
+WHO: audit:unknown
+WHAT: supplied credentials: [admin+password]
+ACTION: AUTHENTICATION_SUCCESS
+APPLICATION: CAS
+WHEN: Sat Mar 10 18:21:33 CET 2018
+CLIENT IP ADDRESS: 127.0.0.1
+SERVER IP ADDRESS: 127.0.1.1
+=============================================================
+
+
+2018-03-10 18:21:33,230 INFO [com.github.inspektr.audit.support.Slf4jLoggingAuditTrailManager] - Audit trail record BEGIN
+=============================================================
+WHO: audit:unknown
+WHAT: TGT-1-cRQDaxfl2FkOuldpeJAigdLi945GHuY7amlAUoeugsIZWqw7m4-cas01.example.org
+ACTION: TICKET_GRANTING_TICKET_CREATED
+APPLICATION: CAS
+WHEN: Sat Mar 10 18:21:33 CET 2018
+CLIENT IP ADDRESS: 127.0.0.1
+SERVER IP ADDRESS: 127.0.1.1
+=============================================================
+
+
+2018-03-10 18:21:33,236 INFO [org.jasig.cas.CentralAuthenticationServiceImpl] - Granted service ticket [ST-1-Kd3CfNYUTjtwHnm2nWI0-cas01.example.org] for service [https://mils:8443/SNIAdmin/] for user [admin]
+2018-03-10 18:21:33,237 INFO [com.github.inspektr.audit.support.Slf4jLoggingAuditTrailManager] - Audit trail record BEGIN
+=============================================================
+WHO: admin
+WHAT: ST-1-Kd3CfNYUTjtwHnm2nWI0-cas01.example.org for https://mils:8443/SNIAdmin/
+ACTION: SERVICE_TICKET_CREATED
+APPLICATION: CAS
+WHEN: Sat Mar 10 18:21:33 CET 2018
+CLIENT IP ADDRESS: 127.0.0.1
+SERVER IP ADDRESS: 127.0.1.1
+=============================================================
+
+
+2018-03-10 18:21:33,421 INFO [com.github.inspektr.audit.support.Slf4jLoggingAuditTrailManager] - Audit trail record BEGIN
+=============================================================
+WHO: audit:unknown
+WHAT: ST-1-Kd3CfNYUTjtwHnm2nWI0-cas01.example.org
+ACTION: SERVICE_TICKET_VALIDATED
+APPLICATION: CAS
+WHEN: Sat Mar 10 18:21:33 CET 2018
+CLIENT IP ADDRESS: 127.0.0.1
+SERVER IP ADDRESS: 127.0.1.1
+=============================================================
+
+
+2018-03-10 18:21:49,312 INFO [org.jasig.cas.ticket.registry.support.DefaultTicketRegistryCleaner] - Beginning ticket cleanup.
+2018-03-10 18:21:49,312 INFO [org.jasig.cas.ticket.registry.support.DefaultTicketRegistryCleaner] - 0 tickets found to be removed.
+2018-03-10 18:21:49,312 INFO [org.jasig.cas.ticket.registry.support.DefaultTicketRegistryCleaner] - Finished ticket cleanup.
+2018-03-10 18:22:18,613 INFO [com.github.inspektr.audit.support.Slf4jLoggingAuditTrailManager] - Audit trail record BEGIN
+=============================================================
+WHO: audit:unknown
+WHAT: TGT-1-cRQDaxfl2FkOuldpeJAigdLi945GHuY7amlAUoeugsIZWqw7m4-cas01.example.org
+ACTION: TICKET_GRANTING_TICKET_DESTROYED
+APPLICATION: CAS
+WHEN: Sat Mar 10 18:22:18 CET 2018
+CLIENT IP ADDRESS: 127.0.0.1
+SERVER IP ADDRESS: 127.0.1.1
+=============================================================
+
+
+2018-03-10 18:22:25,637 INFO [org.jasig.cas.authentication.PolicyBasedAuthenticationManager] - SearchModeSearchDatabaseAuthenticationHandler successfully authenticated admin+password
+2018-03-10 18:22:25,639 INFO [org.jasig.cas.authentication.PolicyBasedAuthenticationManager] - Authenticated admin with credentials [admin+password].
+2018-03-10 18:22:25,639 INFO [com.github.inspektr.audit.support.Slf4jLoggingAuditTrailManager] - Audit trail record BEGIN
+=============================================================
+WHO: audit:unknown
+WHAT: supplied credentials: [admin+password]
+ACTION: AUTHENTICATION_SUCCESS
+APPLICATION: CAS
+WHEN: Sat Mar 10 18:22:25 CET 2018
+CLIENT IP ADDRESS: 127.0.0.1
+SERVER IP ADDRESS: 127.0.1.1
+=============================================================
+
+
+2018-03-10 18:22:25,639 INFO [com.github.inspektr.audit.support.Slf4jLoggingAuditTrailManager] - Audit trail record BEGIN
+=============================================================
+WHO: audit:unknown
+WHAT: TGT-2-qAUb4rjY0ZVGxcsbC6t9dbPIe9YQUkbS3z2ZSuf712xagQbLWL-cas01.example.org
+ACTION: TICKET_GRANTING_TICKET_CREATED
+APPLICATION: CAS
+WHEN: Sat Mar 10 18:22:25 CET 2018
+CLIENT IP ADDRESS: 127.0.0.1
+SERVER IP ADDRESS: 127.0.1.1
+=============================================================
+
+
+2018-03-10 18:22:25,640 INFO [org.jasig.cas.CentralAuthenticationServiceImpl] - Granted service ticket [ST-2-rPORTaHsiaeB6e0es2Is-cas01.example.org] for service [https://mils:8443/SNIAdmin/] for user [admin]
+2018-03-10 18:22:25,641 INFO [com.github.inspektr.audit.support.Slf4jLoggingAuditTrailManager] - Audit trail record BEGIN
+=============================================================
+WHO: admin
+WHAT: ST-2-rPORTaHsiaeB6e0es2Is-cas01.example.org for https://mils:8443/SNIAdmin/
+ACTION: SERVICE_TICKET_CREATED
+APPLICATION: CAS
+WHEN: Sat Mar 10 18:22:25 CET 2018
+CLIENT IP ADDRESS: 127.0.0.1
+SERVER IP ADDRESS: 127.0.1.1
+=============================================================
+
+
+2018-03-10 18:22:25,680 INFO [com.github.inspektr.audit.support.Slf4jLoggingAuditTrailManager] - Audit trail record BEGIN
+=============================================================
+WHO: audit:unknown
+WHAT: ST-2-rPORTaHsiaeB6e0es2Is-cas01.example.org
+ACTION: SERVICE_TICKET_VALIDATED
+APPLICATION: CAS
+WHEN: Sat Mar 10 18:22:25 CET 2018
+CLIENT IP ADDRESS: 127.0.0.1
+SERVER IP ADDRESS: 127.0.1.1
+=============================================================
+
+
+2018-03-10 18:23:29,391 INFO [org.jasig.cas.services.DefaultServicesManagerImpl] - Reloading registered services.
+2018-03-10 18:23:29,422 INFO [org.jasig.cas.services.DefaultServicesManagerImpl] - Loaded 1 services.
+2018-03-10 18:25:29,390 INFO [org.jasig.cas.services.DefaultServicesManagerImpl] - Reloading registered services.
+2018-03-10 18:25:29,419 INFO [org.jasig.cas.services.DefaultServicesManagerImpl] - Loaded 1 services.
+2018-03-10 18:27:29,389 INFO [org.jasig.cas.services.DefaultServicesManagerImpl] - Reloading registered services.
+2018-03-10 18:27:29,426 INFO [org.jasig.cas.services.DefaultServicesManagerImpl] - Loaded 1 services.
+2018-03-10 18:29:29,389 INFO [org.jasig.cas.services.DefaultServicesManagerImpl] - Reloading registered services.
+2018-03-10 18:29:29,389 INFO [org.jasig.cas.services.DefaultServicesManagerImpl] - Loaded 1 services.
+2018-03-10 18:31:29,389 INFO [org.jasig.cas.services.DefaultServicesManagerImpl] - Reloading registered services.
+2018-03-10 18:31:29,407 INFO [org.jasig.cas.services.DefaultServicesManagerImpl] - Loaded 1 services.
+2018-03-10 18:33:29,389 INFO [org.jasig.cas.services.DefaultServicesManagerImpl] - Reloading registered services.
+2018-03-10 18:33:29,414 INFO [org.jasig.cas.services.DefaultServicesManagerImpl] - Loaded 1 services.
+2018-03-10 18:35:29,389 INFO [org.jasig.cas.services.DefaultServicesManagerImpl] - Reloading registered services.
+2018-03-10 18:35:29,409 INFO [org.jasig.cas.services.DefaultServicesManagerImpl] - Loaded 1 services.
+2018-03-10 18:37:29,389 INFO [org.jasig.cas.services.DefaultServicesManagerImpl] - Reloading registered services.
+2018-03-10 18:37:29,405 INFO [org.jasig.cas.services.DefaultServicesManagerImpl] - Loaded 1 services.
+2018-03-10 18:39:29,389 INFO [org.jasig.cas.services.DefaultServicesManagerImpl] - Reloading registered services.
+2018-03-10 18:39:29,412 INFO [org.jasig.cas.services.DefaultServicesManagerImpl] - Loaded 1 services.
+2018-03-10 18:41:29,388 INFO [org.jasig.cas.services.DefaultServicesManagerImpl] - Reloading registered services.
+2018-03-10 18:41:29,407 INFO [org.jasig.cas.services.DefaultServicesManagerImpl] - Loaded 1 services.
+2018-03-10 18:43:29,389 INFO [org.jasig.cas.services.DefaultServicesManagerImpl] - Reloading registered services.
+2018-03-10 18:43:29,413 INFO [org.jasig.cas.services.DefaultServicesManagerImpl] - Loaded 1 services.
+2018-03-10 18:43:36,360 INFO [com.github.inspektr.audit.support.Slf4jLoggingAuditTrailManager] - Audit trail record BEGIN
+=============================================================
+WHO: audit:unknown
+WHAT: TGT-2-qAUb4rjY0ZVGxcsbC6t9dbPIe9YQUkbS3z2ZSuf712xagQbLWL-cas01.example.org
+ACTION: TICKET_GRANTING_TICKET_DESTROYED
+APPLICATION: CAS
+WHEN: Sat Mar 10 18:43:36 CET 2018
+CLIENT IP ADDRESS: 127.0.0.1
+SERVER IP ADDRESS: 127.0.1.1
+=============================================================
+
+
+2018-03-10 18:43:44,408 INFO [org.jasig.cas.authentication.PolicyBasedAuthenticationManager] - SearchModeSearchDatabaseAuthenticationHandler successfully authenticated admin+password
+2018-03-10 18:43:44,408 INFO [org.jasig.cas.authentication.PolicyBasedAuthenticationManager] - Authenticated admin with credentials [admin+password].
+2018-03-10 18:43:44,408 INFO [com.github.inspektr.audit.support.Slf4jLoggingAuditTrailManager] - Audit trail record BEGIN
+=============================================================
+WHO: audit:unknown
+WHAT: supplied credentials: [admin+password]
+ACTION: AUTHENTICATION_SUCCESS
+APPLICATION: CAS
+WHEN: Sat Mar 10 18:43:44 CET 2018
+CLIENT IP ADDRESS: 127.0.0.1
+SERVER IP ADDRESS: 127.0.1.1
+=============================================================
+
+
+2018-03-10 18:43:44,409 INFO [com.github.inspektr.audit.support.Slf4jLoggingAuditTrailManager] - Audit trail record BEGIN
+=============================================================
+WHO: audit:unknown
+WHAT: TGT-3-GrcTs5yf7roR6uyuEBqgZivsfQl6PMAFR3Cmpwap7RhAolVmYz-cas01.example.org
+ACTION: TICKET_GRANTING_TICKET_CREATED
+APPLICATION: CAS
+WHEN: Sat Mar 10 18:43:44 CET 2018
+CLIENT IP ADDRESS: 127.0.0.1
+SERVER IP ADDRESS: 127.0.1.1
+=============================================================
+
+
+2018-03-10 18:43:53,436 INFO [org.jasig.cas.CentralAuthenticationServiceImpl] - Granted service ticket [ST-3-M4KYJGyV7zMjjesVD7ER-cas01.example.org] for service [https://mils:8443/SNIAdmin/codepage.jsp] for user [admin]
+2018-03-10 18:43:53,459 INFO [com.github.inspektr.audit.support.Slf4jLoggingAuditTrailManager] - Audit trail record BEGIN
+=============================================================
+WHO: admin
+WHAT: ST-3-M4KYJGyV7zMjjesVD7ER-cas01.example.org for https://mils:8443/SNIAdmin/codepage.jsp
+ACTION: SERVICE_TICKET_CREATED
+APPLICATION: CAS
+WHEN: Sat Mar 10 18:43:53 CET 2018
+CLIENT IP ADDRESS: 127.0.0.1
+SERVER IP ADDRESS: 127.0.1.1
+=============================================================
+
+
+2018-03-10 18:43:53,486 INFO [com.github.inspektr.audit.support.Slf4jLoggingAuditTrailManager] - Audit trail record BEGIN
+=============================================================
+WHO: audit:unknown
+WHAT: ST-3-M4KYJGyV7zMjjesVD7ER-cas01.example.org
+ACTION: SERVICE_TICKET_VALIDATED
+APPLICATION: CAS
+WHEN: Sat Mar 10 18:43:53 CET 2018
+CLIENT IP ADDRESS: 127.0.0.1
+SERVER IP ADDRESS: 127.0.1.1
+=============================================================
+
+
+2018-03-10 18:45:29,389 INFO [org.jasig.cas.services.DefaultServicesManagerImpl] - Reloading registered services.
+2018-03-10 18:45:29,497 INFO [org.jasig.cas.services.DefaultServicesManagerImpl] - Loaded 1 services.
+2018-03-10 18:47:29,389 INFO [org.jasig.cas.services.DefaultServicesManagerImpl] - Reloading registered services.
+2018-03-10 18:47:29,421 INFO [org.jasig.cas.services.DefaultServicesManagerImpl] - Loaded 1 services.
+2018-03-10 18:49:29,388 INFO [org.jasig.cas.services.DefaultServicesManagerImpl] - Reloading registered services.
+2018-03-10 18:49:29,415 INFO [org.jasig.cas.services.DefaultServicesManagerImpl] - Loaded 1 services.
+2018-03-10 18:51:29,391 INFO [org.jasig.cas.services.DefaultServicesManagerImpl] - Reloading registered services.
+2018-03-10 18:51:29,407 INFO [org.jasig.cas.services.DefaultServicesManagerImpl] - Loaded 1 services.
+2018-03-10 18:53:29,389 INFO [org.jasig.cas.services.DefaultServicesManagerImpl] - Reloading registered services.
+2018-03-10 18:53:29,432 INFO [org.jasig.cas.services.DefaultServicesManagerImpl] - Loaded 1 services.
+2018-03-10 18:55:29,389 INFO [org.jasig.cas.services.DefaultServicesManagerImpl] - Reloading registered services.
+2018-03-10 18:55:29,389 INFO [org.jasig.cas.services.DefaultServicesManagerImpl] - Loaded 1 services.
+2018-03-10 18:56:25,892 INFO [com.github.inspektr.audit.support.Slf4jLoggingAuditTrailManager] - Audit trail record BEGIN
+=============================================================
+WHO: audit:unknown
+WHAT: TGT-3-GrcTs5yf7roR6uyuEBqgZivsfQl6PMAFR3Cmpwap7RhAolVmYz-cas01.example.org
+ACTION: TICKET_GRANTING_TICKET_DESTROYED
+APPLICATION: CAS
+WHEN: Sat Mar 10 18:56:25 CET 2018
+CLIENT IP ADDRESS: 127.0.0.1
+SERVER IP ADDRESS: 127.0.1.1
+=============================================================
+
+
+2018-03-10 18:57:29,388 INFO [org.jasig.cas.services.DefaultServicesManagerImpl] - Reloading registered services.
+2018-03-10 18:57:29,389 INFO [org.jasig.cas.services.DefaultServicesManagerImpl] - Loaded 1 services.
+2018-03-10 18:59:29,389 INFO [org.jasig.cas.services.DefaultServicesManagerImpl] - Reloading registered services.
+2018-03-10 18:59:29,390 INFO [org.jasig.cas.services.DefaultServicesManagerImpl] - Loaded 1 services.
+2018-03-10 19:01:29,389 INFO [org.jasig.cas.services.DefaultServicesManagerImpl] - Reloading registered services.
+2018-03-10 19:01:29,410 INFO [org.jasig.cas.services.DefaultServicesManagerImpl] - Loaded 1 services.
+2018-03-10 19:03:29,389 INFO [org.jasig.cas.services.DefaultServicesManagerImpl] - Reloading registered services.
+2018-03-10 19:03:29,398 INFO [org.jasig.cas.services.DefaultServicesManagerImpl] - Loaded 1 services.
+2018-03-10 19:05:29,389 INFO [org.jasig.cas.services.DefaultServicesManagerImpl] - Reloading registered services.
+2018-03-10 19:05:29,389 INFO [org.jasig.cas.services.DefaultServicesManagerImpl] - Loaded 1 services.
+2018-03-10 19:07:29,389 INFO [org.jasig.cas.services.DefaultServicesManagerImpl] - Reloading registered services.
+2018-03-10 19:07:29,390 INFO [org.jasig.cas.services.DefaultServicesManagerImpl] - Loaded 1 services.
+2018-03-10 19:09:29,388 INFO [org.jasig.cas.services.DefaultServicesManagerImpl] - Reloading registered services.
+2018-03-10 19:09:29,389 INFO [org.jasig.cas.services.DefaultServicesManagerImpl] - Loaded 1 services.
+2018-03-10 19:10:41,707 INFO [org.jasig.cas.authentication.PolicyBasedAuthenticationManager] - SearchModeSearchDatabaseAuthenticationHandler successfully authenticated admin+password
+2018-03-10 19:10:41,707 INFO [org.jasig.cas.authentication.PolicyBasedAuthenticationManager] - Authenticated admin with credentials [admin+password].
+2018-03-10 19:10:41,708 INFO [com.github.inspektr.audit.support.Slf4jLoggingAuditTrailManager] - Audit trail record BEGIN
+=============================================================
+WHO: audit:unknown
+WHAT: supplied credentials: [admin+password]
+ACTION: AUTHENTICATION_SUCCESS
+APPLICATION: CAS
+WHEN: Sat Mar 10 19:10:41 CET 2018
+CLIENT IP ADDRESS: 127.0.0.1
+SERVER IP ADDRESS: 127.0.1.1
+=============================================================
+
+
+2018-03-10 19:10:41,708 INFO [com.github.inspektr.audit.support.Slf4jLoggingAuditTrailManager] - Audit trail record BEGIN
+=============================================================
+WHO: audit:unknown
+WHAT: TGT-4-eDBMRy64emDHgBOl6h6Loa9vvqkFcbBnhOgqHmSuIdvJLDferd-cas01.example.org
+ACTION: TICKET_GRANTING_TICKET_CREATED
+APPLICATION: CAS
+WHEN: Sat Mar 10 19:10:41 CET 2018
+CLIENT IP ADDRESS: 127.0.0.1
+SERVER IP ADDRESS: 127.0.1.1
+=============================================================
+
+
+2018-03-10 19:10:41,708 INFO [org.jasig.cas.CentralAuthenticationServiceImpl] - Granted service ticket [ST-4-UJt7nF0UNRvrIamnUfSh-cas01.example.org] for service [https://mils:8443/SNIAdmin/codepage.jsp] for user [admin]
+2018-03-10 19:10:41,709 INFO [com.github.inspektr.audit.support.Slf4jLoggingAuditTrailManager] - Audit trail record BEGIN
+=============================================================
+WHO: admin
+WHAT: ST-4-UJt7nF0UNRvrIamnUfSh-cas01.example.org for https://mils:8443/SNIAdmin/codepage.jsp
+ACTION: SERVICE_TICKET_CREATED
+APPLICATION: CAS
+WHEN: Sat Mar 10 19:10:41 CET 2018
+CLIENT IP ADDRESS: 127.0.0.1
+SERVER IP ADDRESS: 127.0.1.1
+=============================================================
+
+
+2018-03-10 19:10:41,736 INFO [com.github.inspektr.audit.support.Slf4jLoggingAuditTrailManager] - Audit trail record BEGIN
+=============================================================
+WHO: audit:unknown
+WHAT: ST-4-UJt7nF0UNRvrIamnUfSh-cas01.example.org
+ACTION: SERVICE_TICKET_VALIDATED
+APPLICATION: CAS
+WHEN: Sat Mar 10 19:10:41 CET 2018
+CLIENT IP ADDRESS: 127.0.0.1
+SERVER IP ADDRESS: 127.0.1.1
+=============================================================
+
+
+2018-03-10 19:11:29,389 INFO [org.jasig.cas.services.DefaultServicesManagerImpl] - Reloading registered services.
+2018-03-10 19:11:29,389 INFO [org.jasig.cas.services.DefaultServicesManagerImpl] - Loaded 1 services.
+2018-03-10 19:11:33,253 INFO [org.jasig.cas.CentralAuthenticationServiceImpl] - Granted service ticket [ST-5-Q7lpomKwc7geVusGh9mT-cas01.example.org] for service [https://mils:8443/SNIAdmin/CodeServlet] for user [admin]
+2018-03-10 19:11:33,254 INFO [com.github.inspektr.audit.support.Slf4jLoggingAuditTrailManager] - Audit trail record BEGIN
+=============================================================
+WHO: admin
+WHAT: ST-5-Q7lpomKwc7geVusGh9mT-cas01.example.org for https://mils:8443/SNIAdmin/CodeServlet
+ACTION: SERVICE_TICKET_CREATED
+APPLICATION: CAS
+WHEN: Sat Mar 10 19:11:33 CET 2018
+CLIENT IP ADDRESS: 127.0.0.1
+SERVER IP ADDRESS: 127.0.1.1
+=============================================================
+
+
+2018-03-10 19:11:33,273 INFO [com.github.inspektr.audit.support.Slf4jLoggingAuditTrailManager] - Audit trail record BEGIN
+=============================================================
+WHO: audit:unknown
+WHAT: ST-5-Q7lpomKwc7geVusGh9mT-cas01.example.org
+ACTION: SERVICE_TICKET_VALIDATED
+APPLICATION: CAS
+WHEN: Sat Mar 10 19:11:33 CET 2018
+CLIENT IP ADDRESS: 127.0.0.1
+SERVER IP ADDRESS: 127.0.1.1
+=============================================================
+
+
+2018-03-10 19:13:29,389 INFO [org.jasig.cas.services.DefaultServicesManagerImpl] - Reloading registered services.
+2018-03-10 19:13:29,389 INFO [org.jasig.cas.services.DefaultServicesManagerImpl] - Loaded 1 services.
+2018-03-10 19:15:29,389 INFO [org.jasig.cas.services.DefaultServicesManagerImpl] - Reloading registered services.
+2018-03-10 19:15:29,390 INFO [org.jasig.cas.services.DefaultServicesManagerImpl] - Loaded 1 services.
+2018-03-10 19:17:29,389 INFO [org.jasig.cas.services.DefaultServicesManagerImpl] - Reloading registered services.
+2018-03-10 19:17:29,389 INFO [org.jasig.cas.services.DefaultServicesManagerImpl] - Loaded 1 services.
+2018-03-10 19:19:29,389 INFO [org.jasig.cas.services.DefaultServicesManagerImpl] - Reloading registered services.
+2018-03-10 19:19:29,390 INFO [org.jasig.cas.services.DefaultServicesManagerImpl] - Loaded 1 services.
+2018-03-10 19:21:29,389 INFO [org.jasig.cas.services.DefaultServicesManagerImpl] - Reloading registered services.
+2018-03-10 19:21:29,389 INFO [org.jasig.cas.services.DefaultServicesManagerImpl] - Loaded 1 services.
+2018-03-10 19:21:37,316 INFO [org.jasig.cas.util.AutowiringSchedulerFactoryBean] - Shutting down Quartz Scheduler
+2018-03-10 19:21:48,308 INFO [org.jasig.cas.services.DefaultServicesManagerImpl] - Loaded 1 services.
+2018-03-10 19:21:49,498 INFO [org.jasig.cas.util.AutowiringSchedulerFactoryBean] - Starting Quartz Scheduler now
+2018-03-10 19:21:50,843 INFO [org.jasig.cas.web.flow.InitialFlowSetupAction] - Setting path for cookies to: /cas/
+2018-03-10 19:21:50,843 INFO [org.jasig.cas.web.flow.InitialFlowSetupAction] - Setting path for cookies to: /cas/
+2018-03-10 19:21:50,905 INFO [com.github.inspektr.audit.support.Slf4jLoggingAuditTrailManager] - Audit trail record BEGIN
+=============================================================
+WHO: audit:unknown
+WHAT: TGT-4-eDBMRy64emDHgBOl6h6Loa9vvqkFcbBnhOgqHmSuIdvJLDferd-cas01.example.org
+ACTION: TICKET_GRANTING_TICKET_DESTROYED
+APPLICATION: CAS
+WHEN: Sat Mar 10 19:21:50 CET 2018
+CLIENT IP ADDRESS: 127.0.0.1
+SERVER IP ADDRESS: 127.0.1.1
+=============================================================
+
+
+2018-03-10 19:22:08,483 INFO [org.jasig.cas.ticket.registry.support.DefaultTicketRegistryCleaner] - Beginning ticket cleanup.
+2018-03-10 19:22:08,486 INFO [org.jasig.cas.ticket.registry.support.DefaultTicketRegistryCleaner] - 0 tickets found to be removed.
+2018-03-10 19:22:08,486 INFO [org.jasig.cas.ticket.registry.support.DefaultTicketRegistryCleaner] - Finished ticket cleanup.
+2018-03-10 19:23:48,552 INFO [org.jasig.cas.services.DefaultServicesManagerImpl] - Reloading registered services.
+2018-03-10 19:23:48,553 INFO [org.jasig.cas.services.DefaultServicesManagerImpl] - Loaded 1 services.
+2018-03-10 19:24:15,027 INFO [org.jasig.cas.authentication.PolicyBasedAuthenticationManager] - SearchModeSearchDatabaseAuthenticationHandler successfully authenticated mils+password
+2018-03-10 19:24:15,029 INFO [org.jasig.cas.authentication.PolicyBasedAuthenticationManager] - Authenticated mils with credentials [mils+password].
+2018-03-10 19:24:15,030 INFO [com.github.inspektr.audit.support.Slf4jLoggingAuditTrailManager] - Audit trail record BEGIN
+=============================================================
+WHO: audit:unknown
+WHAT: supplied credentials: [mils+password]
+ACTION: AUTHENTICATION_SUCCESS
+APPLICATION: CAS
+WHEN: Sat Mar 10 19:24:15 CET 2018
+CLIENT IP ADDRESS: 127.0.0.1
+SERVER IP ADDRESS: 127.0.1.1
+=============================================================
+
+
+2018-03-10 19:24:15,032 INFO [com.github.inspektr.audit.support.Slf4jLoggingAuditTrailManager] - Audit trail record BEGIN
+=============================================================
+WHO: audit:unknown
+WHAT: TGT-1-sjf4xpofbJQR0r3NaECMmy70Jw6ywQaMXuXjefj6kHma1WcCR2-cas01.example.org
+ACTION: TICKET_GRANTING_TICKET_CREATED
+APPLICATION: CAS
+WHEN: Sat Mar 10 19:24:15 CET 2018
+CLIENT IP ADDRESS: 127.0.0.1
+SERVER IP ADDRESS: 127.0.1.1
+=============================================================
+
+
+2018-03-10 19:24:15,037 INFO [org.jasig.cas.CentralAuthenticationServiceImpl] - Granted service ticket [ST-1-m5VAmyzmPEPiShthvUyG-cas01.example.org] for service [https://mils:8443/SNIUser/] for user [mils]
+2018-03-10 19:24:15,038 INFO [com.github.inspektr.audit.support.Slf4jLoggingAuditTrailManager] - Audit trail record BEGIN
+=============================================================
+WHO: mils
+WHAT: ST-1-m5VAmyzmPEPiShthvUyG-cas01.example.org for https://mils:8443/SNIUser/
+ACTION: SERVICE_TICKET_CREATED
+APPLICATION: CAS
+WHEN: Sat Mar 10 19:24:15 CET 2018
+CLIENT IP ADDRESS: 127.0.0.1
+SERVER IP ADDRESS: 127.0.1.1
+=============================================================
+
+
+2018-03-10 19:24:15,178 INFO [com.github.inspektr.audit.support.Slf4jLoggingAuditTrailManager] - Audit trail record BEGIN
+=============================================================
+WHO: audit:unknown
+WHAT: ST-1-m5VAmyzmPEPiShthvUyG-cas01.example.org
+ACTION: SERVICE_TICKET_VALIDATED
+APPLICATION: CAS
+WHEN: Sat Mar 10 19:24:15 CET 2018
+CLIENT IP ADDRESS: 127.0.0.1
+SERVER IP ADDRESS: 127.0.1.1
+=============================================================
+
+
+2018-03-10 19:25:23,944 INFO [com.github.inspektr.audit.support.Slf4jLoggingAuditTrailManager] - Audit trail record BEGIN
+=============================================================
+WHO: audit:unknown
+WHAT: TGT-1-sjf4xpofbJQR0r3NaECMmy70Jw6ywQaMXuXjefj6kHma1WcCR2-cas01.example.org
+ACTION: TICKET_GRANTING_TICKET_DESTROYED
+APPLICATION: CAS
+WHEN: Sat Mar 10 19:25:23 CET 2018
+CLIENT IP ADDRESS: 127.0.0.1
+SERVER IP ADDRESS: 127.0.1.1
+=============================================================
+
+
+2018-03-10 19:25:39,339 INFO [org.jasig.cas.authentication.PolicyBasedAuthenticationManager] - SearchModeSearchDatabaseAuthenticationHandler successfully authenticated admin+password
+2018-03-10 19:25:39,339 INFO [org.jasig.cas.authentication.PolicyBasedAuthenticationManager] - Authenticated admin with credentials [admin+password].
+2018-03-10 19:25:39,340 INFO [com.github.inspektr.audit.support.Slf4jLoggingAuditTrailManager] - Audit trail record BEGIN
+=============================================================
+WHO: audit:unknown
+WHAT: supplied credentials: [admin+password]
+ACTION: AUTHENTICATION_SUCCESS
+APPLICATION: CAS
+WHEN: Sat Mar 10 19:25:39 CET 2018
+CLIENT IP ADDRESS: 127.0.0.1
+SERVER IP ADDRESS: 127.0.1.1
+=============================================================
+
+
+2018-03-10 19:25:39,340 INFO [com.github.inspektr.audit.support.Slf4jLoggingAuditTrailManager] - Audit trail record BEGIN
+=============================================================
+WHO: audit:unknown
+WHAT: TGT-2-NKG25ZwVgFG5LOPAPQ9A7YUMZbcQkyg9qpMMDwBtSBokbVSA3w-cas01.example.org
+ACTION: TICKET_GRANTING_TICKET_CREATED
+APPLICATION: CAS
+WHEN: Sat Mar 10 19:25:39 CET 2018
+CLIENT IP ADDRESS: 127.0.0.1
+SERVER IP ADDRESS: 127.0.1.1
+=============================================================
+
+
+2018-03-10 19:25:39,341 INFO [org.jasig.cas.CentralAuthenticationServiceImpl] - Granted service ticket [ST-2-EukdfAewcx0HVf30AQvp-cas01.example.org] for service [https://mils:8443/SNIUser/codepage.jsp] for user [admin]
+2018-03-10 19:25:39,341 INFO [com.github.inspektr.audit.support.Slf4jLoggingAuditTrailManager] - Audit trail record BEGIN
+=============================================================
+WHO: admin
+WHAT: ST-2-EukdfAewcx0HVf30AQvp-cas01.example.org for https://mils:8443/SNIUser/codepage.jsp
+ACTION: SERVICE_TICKET_CREATED
+APPLICATION: CAS
+WHEN: Sat Mar 10 19:25:39 CET 2018
+CLIENT IP ADDRESS: 127.0.0.1
+SERVER IP ADDRESS: 127.0.1.1
+=============================================================
+
+
+2018-03-10 19:25:39,360 INFO [com.github.inspektr.audit.support.Slf4jLoggingAuditTrailManager] - Audit trail record BEGIN
+=============================================================
+WHO: audit:unknown
+WHAT: ST-2-EukdfAewcx0HVf30AQvp-cas01.example.org
+ACTION: SERVICE_TICKET_VALIDATED
+APPLICATION: CAS
+WHEN: Sat Mar 10 19:25:39 CET 2018
+CLIENT IP ADDRESS: 127.0.0.1
+SERVER IP ADDRESS: 127.0.1.1
+=============================================================
+
+
+2018-03-10 19:25:42,383 INFO [com.github.inspektr.audit.support.Slf4jLoggingAuditTrailManager] - Audit trail record BEGIN
+=============================================================
+WHO: audit:unknown
+WHAT: TGT-2-NKG25ZwVgFG5LOPAPQ9A7YUMZbcQkyg9qpMMDwBtSBokbVSA3w-cas01.example.org
+ACTION: TICKET_GRANTING_TICKET_DESTROYED
+APPLICATION: CAS
+WHEN: Sat Mar 10 19:25:42 CET 2018
+CLIENT IP ADDRESS: 127.0.0.1
+SERVER IP ADDRESS: 127.0.1.1
+=============================================================
+
+
+2018-03-10 19:25:48,550 INFO [org.jasig.cas.services.DefaultServicesManagerImpl] - Reloading registered services.
+2018-03-10 19:25:48,551 INFO [org.jasig.cas.services.DefaultServicesManagerImpl] - Loaded 1 services.
+2018-03-10 19:26:03,613 INFO [org.jasig.cas.authentication.PolicyBasedAuthenticationManager] - SearchModeSearchDatabaseAuthenticationHandler successfully authenticated admin+password
+2018-03-10 19:26:03,613 INFO [org.jasig.cas.authentication.PolicyBasedAuthenticationManager] - Authenticated admin with credentials [admin+password].
+2018-03-10 19:26:03,613 INFO [com.github.inspektr.audit.support.Slf4jLoggingAuditTrailManager] - Audit trail record BEGIN
+=============================================================
+WHO: audit:unknown
+WHAT: supplied credentials: [admin+password]
+ACTION: AUTHENTICATION_SUCCESS
+APPLICATION: CAS
+WHEN: Sat Mar 10 19:26:03 CET 2018
+CLIENT IP ADDRESS: 127.0.0.1
+SERVER IP ADDRESS: 127.0.1.1
+=============================================================
+
+
+2018-03-10 19:26:03,616 INFO [com.github.inspektr.audit.support.Slf4jLoggingAuditTrailManager] - Audit trail record BEGIN
+=============================================================
+WHO: audit:unknown
+WHAT: TGT-3-lBjVJSdoePmtlGLD9mrmcfcg072PWtu1FCBf2qfGvFzYblZwLK-cas01.example.org
+ACTION: TICKET_GRANTING_TICKET_CREATED
+APPLICATION: CAS
+WHEN: Sat Mar 10 19:26:03 CET 2018
+CLIENT IP ADDRESS: 127.0.0.1
+SERVER IP ADDRESS: 127.0.1.1
+=============================================================
+
+
+2018-03-10 19:26:03,618 INFO [org.jasig.cas.CentralAuthenticationServiceImpl] - Granted service ticket [ST-3-kMy1ksQB6KWl16l3fDQ9-cas01.example.org] for service [https://mils:8443/SNIUser/userpage.jsp] for user [admin]
+2018-03-10 19:26:03,618 INFO [com.github.inspektr.audit.support.Slf4jLoggingAuditTrailManager] - Audit trail record BEGIN
+=============================================================
+WHO: admin
+WHAT: ST-3-kMy1ksQB6KWl16l3fDQ9-cas01.example.org for https://mils:8443/SNIUser/userpage.jsp
+ACTION: SERVICE_TICKET_CREATED
+APPLICATION: CAS
+WHEN: Sat Mar 10 19:26:03 CET 2018
+CLIENT IP ADDRESS: 127.0.0.1
+SERVER IP ADDRESS: 127.0.1.1
+=============================================================
+
+
+2018-03-10 19:26:03,644 INFO [com.github.inspektr.audit.support.Slf4jLoggingAuditTrailManager] - Audit trail record BEGIN
+=============================================================
+WHO: audit:unknown
+WHAT: ST-3-kMy1ksQB6KWl16l3fDQ9-cas01.example.org
+ACTION: SERVICE_TICKET_VALIDATED
+APPLICATION: CAS
+WHEN: Sat Mar 10 19:26:03 CET 2018
+CLIENT IP ADDRESS: 127.0.0.1
+SERVER IP ADDRESS: 127.0.1.1
+=============================================================
+
+
+2018-03-10 19:26:13,897 INFO [com.github.inspektr.audit.support.Slf4jLoggingAuditTrailManager] - Audit trail record BEGIN
+=============================================================
+WHO: audit:unknown
+WHAT: TGT-3-lBjVJSdoePmtlGLD9mrmcfcg072PWtu1FCBf2qfGvFzYblZwLK-cas01.example.org
+ACTION: TICKET_GRANTING_TICKET_DESTROYED
+APPLICATION: CAS
+WHEN: Sat Mar 10 19:26:13 CET 2018
+CLIENT IP ADDRESS: 127.0.0.1
+SERVER IP ADDRESS: 127.0.1.1
+=============================================================
+
+
+2018-03-10 19:26:32,787 INFO [org.jasig.cas.authentication.PolicyBasedAuthenticationManager] - SearchModeSearchDatabaseAuthenticationHandler successfully authenticated mils+password
+2018-03-10 19:26:32,809 INFO [org.jasig.cas.authentication.PolicyBasedAuthenticationManager] - Authenticated mils with credentials [mils+password].
+2018-03-10 19:26:32,809 INFO [com.github.inspektr.audit.support.Slf4jLoggingAuditTrailManager] - Audit trail record BEGIN
+=============================================================
+WHO: audit:unknown
+WHAT: supplied credentials: [mils+password]
+ACTION: AUTHENTICATION_SUCCESS
+APPLICATION: CAS
+WHEN: Sat Mar 10 19:26:32 CET 2018
+CLIENT IP ADDRESS: 127.0.0.1
+SERVER IP ADDRESS: 127.0.1.1
+=============================================================
+
+
+2018-03-10 19:26:32,810 INFO [com.github.inspektr.audit.support.Slf4jLoggingAuditTrailManager] - Audit trail record BEGIN
+=============================================================
+WHO: audit:unknown
+WHAT: TGT-4-oywaerTa0lAxfqof9KlCuT1dImX07B3VmrHnoP6DPyXoJdAzb6-cas01.example.org
+ACTION: TICKET_GRANTING_TICKET_CREATED
+APPLICATION: CAS
+WHEN: Sat Mar 10 19:26:32 CET 2018
+CLIENT IP ADDRESS: 127.0.0.1
+SERVER IP ADDRESS: 127.0.1.1
+=============================================================
+
+
+2018-03-10 19:26:32,811 INFO [org.jasig.cas.CentralAuthenticationServiceImpl] - Granted service ticket [ST-4-7XLMlZDi9o6nWbAuJ1ke-cas01.example.org] for service [https://mils:8443/SNIUser/userpage.jsp] for user [mils]
+2018-03-10 19:26:32,811 INFO [com.github.inspektr.audit.support.Slf4jLoggingAuditTrailManager] - Audit trail record BEGIN
+=============================================================
+WHO: mils
+WHAT: ST-4-7XLMlZDi9o6nWbAuJ1ke-cas01.example.org for https://mils:8443/SNIUser/userpage.jsp
+ACTION: SERVICE_TICKET_CREATED
+APPLICATION: CAS
+WHEN: Sat Mar 10 19:26:32 CET 2018
+CLIENT IP ADDRESS: 127.0.0.1
+SERVER IP ADDRESS: 127.0.1.1
+=============================================================
+
+
+2018-03-10 19:26:32,838 INFO [com.github.inspektr.audit.support.Slf4jLoggingAuditTrailManager] - Audit trail record BEGIN
+=============================================================
+WHO: audit:unknown
+WHAT: ST-4-7XLMlZDi9o6nWbAuJ1ke-cas01.example.org
+ACTION: SERVICE_TICKET_VALIDATED
+APPLICATION: CAS
+WHEN: Sat Mar 10 19:26:32 CET 2018
+CLIENT IP ADDRESS: 127.0.0.1
+SERVER IP ADDRESS: 127.0.1.1
+=============================================================
+
+
+2018-03-10 19:26:42,854 INFO [com.github.inspektr.audit.support.Slf4jLoggingAuditTrailManager] - Audit trail record BEGIN
+=============================================================
+WHO: audit:unknown
+WHAT: TGT-4-oywaerTa0lAxfqof9KlCuT1dImX07B3VmrHnoP6DPyXoJdAzb6-cas01.example.org
+ACTION: TICKET_GRANTING_TICKET_DESTROYED
+APPLICATION: CAS
+WHEN: Sat Mar 10 19:26:42 CET 2018
+CLIENT IP ADDRESS: 127.0.0.1
+SERVER IP ADDRESS: 127.0.1.1
+=============================================================
+
+
+2018-03-10 19:27:48,550 INFO [org.jasig.cas.services.DefaultServicesManagerImpl] - Reloading registered services.
+2018-03-10 19:27:48,551 INFO [org.jasig.cas.services.DefaultServicesManagerImpl] - Loaded 1 services.
+2018-03-10 19:29:48,550 INFO [org.jasig.cas.services.DefaultServicesManagerImpl] - Reloading registered services.
+2018-03-10 19:29:48,588 INFO [org.jasig.cas.services.DefaultServicesManagerImpl] - Loaded 1 services.
+2018-03-10 19:31:48,550 INFO [org.jasig.cas.services.DefaultServicesManagerImpl] - Reloading registered services.
+2018-03-10 19:31:48,550 INFO [org.jasig.cas.services.DefaultServicesManagerImpl] - Loaded 1 services.
+2018-03-10 19:33:48,550 INFO [org.jasig.cas.services.DefaultServicesManagerImpl] - Reloading registered services.
+2018-03-10 19:33:48,551 INFO [org.jasig.cas.services.DefaultServicesManagerImpl] - Loaded 1 services.
+2018-03-10 19:35:48,550 INFO [org.jasig.cas.services.DefaultServicesManagerImpl] - Reloading registered services.
+2018-03-10 19:35:48,550 INFO [org.jasig.cas.services.DefaultServicesManagerImpl] - Loaded 1 services.
+2018-03-10 19:37:48,550 INFO [org.jasig.cas.services.DefaultServicesManagerImpl] - Reloading registered services.
+2018-03-10 19:37:48,551 INFO [org.jasig.cas.services.DefaultServicesManagerImpl] - Loaded 1 services.
+2018-03-10 19:39:48,550 INFO [org.jasig.cas.services.DefaultServicesManagerImpl] - Reloading registered services.
+2018-03-10 19:39:48,550 INFO [org.jasig.cas.services.DefaultServicesManagerImpl] - Loaded 1 services.
+2018-03-10 19:41:48,550 INFO [org.jasig.cas.services.DefaultServicesManagerImpl] - Reloading registered services.
+2018-03-10 19:41:48,550 INFO [org.jasig.cas.services.DefaultServicesManagerImpl] - Loaded 1 services.
+2018-03-10 19:43:48,550 INFO [org.jasig.cas.services.DefaultServicesManagerImpl] - Reloading registered services.
+2018-03-10 19:43:48,550 INFO [org.jasig.cas.services.DefaultServicesManagerImpl] - Loaded 1 services.
+2018-03-10 19:45:48,550 INFO [org.jasig.cas.services.DefaultServicesManagerImpl] - Reloading registered services.
+2018-03-10 19:45:48,551 INFO [org.jasig.cas.services.DefaultServicesManagerImpl] - Loaded 1 services.
+2018-03-10 19:47:48,550 INFO [org.jasig.cas.services.DefaultServicesManagerImpl] - Reloading registered services.
+2018-03-10 19:47:48,550 INFO [org.jasig.cas.services.DefaultServicesManagerImpl] - Loaded 1 services.
+2018-03-10 19:49:48,550 INFO [org.jasig.cas.services.DefaultServicesManagerImpl] - Reloading registered services.
+2018-03-10 19:49:48,551 INFO [org.jasig.cas.services.DefaultServicesManagerImpl] - Loaded 1 services.
+2018-03-10 19:51:48,553 INFO [org.jasig.cas.services.DefaultServicesManagerImpl] - Reloading registered services.
+2018-03-10 19:51:48,554 INFO [org.jasig.cas.services.DefaultServicesManagerImpl] - Loaded 1 services.
+2018-03-10 19:53:48,551 INFO [org.jasig.cas.services.DefaultServicesManagerImpl] - Reloading registered services.
+2018-03-10 19:53:48,551 INFO [org.jasig.cas.services.DefaultServicesManagerImpl] - Loaded 1 services.
+2018-03-10 19:55:48,550 INFO [org.jasig.cas.services.DefaultServicesManagerImpl] - Reloading registered services.
+2018-03-10 19:55:48,551 INFO [org.jasig.cas.services.DefaultServicesManagerImpl] - Loaded 1 services.
+2018-03-10 19:57:48,550 INFO [org.jasig.cas.services.DefaultServicesManagerImpl] - Reloading registered services.
+2018-03-10 19:57:48,550 INFO [org.jasig.cas.services.DefaultServicesManagerImpl] - Loaded 1 services.
+2018-03-10 19:59:48,550 INFO [org.jasig.cas.services.DefaultServicesManagerImpl] - Reloading registered services.
+2018-03-10 19:59:48,551 INFO [org.jasig.cas.services.DefaultServicesManagerImpl] - Loaded 1 services.
+2018-03-10 20:01:48,550 INFO [org.jasig.cas.services.DefaultServicesManagerImpl] - Reloading registered services.
+2018-03-10 20:01:48,550 INFO [org.jasig.cas.services.DefaultServicesManagerImpl] - Loaded 1 services.
+2018-03-10 20:03:48,550 INFO [org.jasig.cas.services.DefaultServicesManagerImpl] - Reloading registered services.
+2018-03-10 20:03:48,551 INFO [org.jasig.cas.services.DefaultServicesManagerImpl] - Loaded 1 services.
+2018-03-10 20:05:48,549 INFO [org.jasig.cas.services.DefaultServicesManagerImpl] - Reloading registered services.
+2018-03-10 20:05:48,549 INFO [org.jasig.cas.services.DefaultServicesManagerImpl] - Loaded 1 services.
+2018-03-10 20:07:48,550 INFO [org.jasig.cas.services.DefaultServicesManagerImpl] - Reloading registered services.
+2018-03-10 20:07:48,550 INFO [org.jasig.cas.services.DefaultServicesManagerImpl] - Loaded 1 services.
+2018-03-10 20:09:48,550 INFO [org.jasig.cas.services.DefaultServicesManagerImpl] - Reloading registered services.
+2018-03-10 20:09:48,551 INFO [org.jasig.cas.services.DefaultServicesManagerImpl] - Loaded 1 services.
+2018-03-10 20:11:48,549 INFO [org.jasig.cas.services.DefaultServicesManagerImpl] - Reloading registered services.
+2018-03-10 20:11:48,550 INFO [org.jasig.cas.services.DefaultServicesManagerImpl] - Loaded 1 services.
+2018-03-10 20:13:48,550 INFO [org.jasig.cas.services.DefaultServicesManagerImpl] - Reloading registered services.
+2018-03-10 20:13:48,550 INFO [org.jasig.cas.services.DefaultServicesManagerImpl] - Loaded 1 services.
+2018-03-10 20:15:48,550 INFO [org.jasig.cas.services.DefaultServicesManagerImpl] - Reloading registered services.
+2018-03-10 20:15:48,550 INFO [org.jasig.cas.services.DefaultServicesManagerImpl] - Loaded 1 services.
+2018-03-10 20:17:48,550 INFO [org.jasig.cas.services.DefaultServicesManagerImpl] - Reloading registered services.
+2018-03-10 20:17:48,631 INFO [org.jasig.cas.services.DefaultServicesManagerImpl] - Loaded 1 services.
+2018-03-10 20:19:48,550 INFO [org.jasig.cas.services.DefaultServicesManagerImpl] - Reloading registered services.
+2018-03-10 20:19:48,584 INFO [org.jasig.cas.services.DefaultServicesManagerImpl] - Loaded 1 services.
+2018-03-10 20:21:48,550 INFO [org.jasig.cas.services.DefaultServicesManagerImpl] - Reloading registered services.
+2018-03-10 20:21:48,571 INFO [org.jasig.cas.services.DefaultServicesManagerImpl] - Loaded 1 services.
+2018-03-10 20:23:48,550 INFO [org.jasig.cas.services.DefaultServicesManagerImpl] - Reloading registered services.
+2018-03-10 20:23:48,590 INFO [org.jasig.cas.services.DefaultServicesManagerImpl] - Loaded 1 services.
+2018-03-10 20:25:48,550 INFO [org.jasig.cas.services.DefaultServicesManagerImpl] - Reloading registered services.
+2018-03-10 20:25:48,599 INFO [org.jasig.cas.services.DefaultServicesManagerImpl] - Loaded 1 services.
+2018-03-10 20:27:48,550 INFO [org.jasig.cas.services.DefaultServicesManagerImpl] - Reloading registered services.
+2018-03-10 20:27:48,574 INFO [org.jasig.cas.services.DefaultServicesManagerImpl] - Loaded 1 services.
+2018-03-10 20:29:48,550 INFO [org.jasig.cas.services.DefaultServicesManagerImpl] - Reloading registered services.
+2018-03-10 20:29:48,583 INFO [org.jasig.cas.services.DefaultServicesManagerImpl] - Loaded 1 services.
+2018-03-10 20:31:48,550 INFO [org.jasig.cas.services.DefaultServicesManagerImpl] - Reloading registered services.
+2018-03-10 20:31:48,550 INFO [org.jasig.cas.services.DefaultServicesManagerImpl] - Loaded 1 services.
+2018-03-10 20:33:48,550 INFO [org.jasig.cas.services.DefaultServicesManagerImpl] - Reloading registered services.
+2018-03-10 20:33:48,550 INFO [org.jasig.cas.services.DefaultServicesManagerImpl] - Loaded 1 services.
+2018-03-10 20:35:48,550 INFO [org.jasig.cas.services.DefaultServicesManagerImpl] - Reloading registered services.
+2018-03-10 20:35:48,550 INFO [org.jasig.cas.services.DefaultServicesManagerImpl] - Loaded 1 services.
+2018-03-10 20:37:48,550 INFO [org.jasig.cas.services.DefaultServicesManagerImpl] - Reloading registered services.
+2018-03-10 20:37:48,550 INFO [org.jasig.cas.services.DefaultServicesManagerImpl] - Loaded 1 services.
+2018-03-10 20:39:48,549 INFO [org.jasig.cas.services.DefaultServicesManagerImpl] - Reloading registered services.
+2018-03-10 20:39:48,572 INFO [org.jasig.cas.services.DefaultServicesManagerImpl] - Loaded 1 services.
+2018-03-10 20:41:48,550 INFO [org.jasig.cas.services.DefaultServicesManagerImpl] - Reloading registered services.
+2018-03-10 20:41:48,570 INFO [org.jasig.cas.services.DefaultServicesManagerImpl] - Loaded 1 services.
+2018-03-10 20:43:48,550 INFO [org.jasig.cas.services.DefaultServicesManagerImpl] - Reloading registered services.
+2018-03-10 20:43:48,579 INFO [org.jasig.cas.services.DefaultServicesManagerImpl] - Loaded 1 services.
+2018-03-10 20:45:28,454 INFO [org.jasig.cas.ticket.registry.support.DefaultTicketRegistryCleaner] - Beginning ticket cleanup.
+2018-03-10 20:45:28,481 INFO [org.jasig.cas.ticket.registry.support.DefaultTicketRegistryCleaner] - 0 tickets found to be removed.
+2018-03-10 20:45:28,481 INFO [org.jasig.cas.ticket.registry.support.DefaultTicketRegistryCleaner] - Finished ticket cleanup.
+2018-03-10 20:45:48,549 INFO [org.jasig.cas.services.DefaultServicesManagerImpl] - Reloading registered services.
+2018-03-10 20:45:48,550 INFO [org.jasig.cas.services.DefaultServicesManagerImpl] - Loaded 1 services.
+2018-03-10 20:47:48,550 INFO [org.jasig.cas.services.DefaultServicesManagerImpl] - Reloading registered services.
+2018-03-10 20:47:48,574 INFO [org.jasig.cas.services.DefaultServicesManagerImpl] - Loaded 1 services.
+2018-03-10 20:49:48,550 INFO [org.jasig.cas.services.DefaultServicesManagerImpl] - Reloading registered services.
+2018-03-10 20:49:48,551 INFO [org.jasig.cas.services.DefaultServicesManagerImpl] - Loaded 1 services.
+2018-03-10 20:51:48,550 INFO [org.jasig.cas.services.DefaultServicesManagerImpl] - Reloading registered services.
+2018-03-10 20:51:48,550 INFO [org.jasig.cas.services.DefaultServicesManagerImpl] - Loaded 1 services.
+2018-03-10 20:52:02,722 INFO [org.jasig.cas.authentication.PolicyBasedAuthenticationManager] - SearchModeSearchDatabaseAuthenticationHandler successfully authenticated admin+password
+2018-03-10 20:52:02,722 INFO [org.jasig.cas.authentication.PolicyBasedAuthenticationManager] - Authenticated admin with credentials [admin+password].
+2018-03-10 20:52:02,723 INFO [com.github.inspektr.audit.support.Slf4jLoggingAuditTrailManager] - Audit trail record BEGIN
+=============================================================
+WHO: audit:unknown
+WHAT: supplied credentials: [admin+password]
+ACTION: AUTHENTICATION_SUCCESS
+APPLICATION: CAS
+WHEN: Sat Mar 10 20:52:02 CET 2018
+CLIENT IP ADDRESS: 127.0.0.1
+SERVER IP ADDRESS: 127.0.1.1
+=============================================================
+
+
+2018-03-10 20:52:02,723 INFO [com.github.inspektr.audit.support.Slf4jLoggingAuditTrailManager] - Audit trail record BEGIN
+=============================================================
+WHO: audit:unknown
+WHAT: TGT-5-YKc32F6cbHHeQbWsng4qhOXv4fK7XVGUWDsJm3mlEEdnas0hu6-cas01.example.org
+ACTION: TICKET_GRANTING_TICKET_CREATED
+APPLICATION: CAS
+WHEN: Sat Mar 10 20:52:02 CET 2018
+CLIENT IP ADDRESS: 127.0.0.1
+SERVER IP ADDRESS: 127.0.1.1
+=============================================================
+
+
+2018-03-10 20:52:02,727 INFO [org.jasig.cas.CentralAuthenticationServiceImpl] - Granted service ticket [ST-5-klwO4xyXtqPxk0ukqglZ-cas01.example.org] for service [https://mils:8443/SNIAdmin/] for user [admin]
+2018-03-10 20:52:02,727 INFO [com.github.inspektr.audit.support.Slf4jLoggingAuditTrailManager] - Audit trail record BEGIN
+=============================================================
+WHO: admin
+WHAT: ST-5-klwO4xyXtqPxk0ukqglZ-cas01.example.org for https://mils:8443/SNIAdmin/
+ACTION: SERVICE_TICKET_CREATED
+APPLICATION: CAS
+WHEN: Sat Mar 10 20:52:02 CET 2018
+CLIENT IP ADDRESS: 127.0.0.1
+SERVER IP ADDRESS: 127.0.1.1
+=============================================================
+
+
+2018-03-10 20:52:02,771 INFO [com.github.inspektr.audit.support.Slf4jLoggingAuditTrailManager] - Audit trail record BEGIN
+=============================================================
+WHO: audit:unknown
+WHAT: ST-5-klwO4xyXtqPxk0ukqglZ-cas01.example.org
+ACTION: SERVICE_TICKET_VALIDATED
+APPLICATION: CAS
+WHEN: Sat Mar 10 20:52:02 CET 2018
+CLIENT IP ADDRESS: 127.0.0.1
+SERVER IP ADDRESS: 127.0.1.1
+=============================================================
+
+
+2018-03-10 20:53:48,550 INFO [org.jasig.cas.services.DefaultServicesManagerImpl] - Reloading registered services.
+2018-03-10 20:53:48,551 INFO [org.jasig.cas.services.DefaultServicesManagerImpl] - Loaded 1 services.
+2018-03-10 20:55:48,549 INFO [org.jasig.cas.services.DefaultServicesManagerImpl] - Reloading registered services.
+2018-03-10 20:55:49,316 INFO [org.jasig.cas.services.DefaultServicesManagerImpl] - Loaded 1 services.
+2020-02-12 22:16:57,424 INFO [org.jasig.cas.services.DefaultServicesManagerImpl] - Loaded 1 services.
+2020-02-12 22:17:02,621 INFO [org.jasig.cas.util.AutowiringSchedulerFactoryBean] - Starting Quartz Scheduler now
+2020-02-12 22:17:18,647 INFO [org.jasig.cas.ticket.registry.support.DefaultTicketRegistryCleaner] - Beginning ticket cleanup.
+2020-02-12 22:17:18,674 INFO [org.jasig.cas.ticket.registry.support.DefaultTicketRegistryCleaner] - 0 tickets found to be removed.
+2020-02-12 22:17:18,688 INFO [org.jasig.cas.ticket.registry.support.DefaultTicketRegistryCleaner] - Finished ticket cleanup.
+2020-02-12 22:17:54,160 INFO [org.jasig.cas.web.flow.InitialFlowSetupAction] - Setting path for cookies to: /cas/
+2020-02-12 22:17:54,160 INFO [org.jasig.cas.web.flow.InitialFlowSetupAction] - Setting path for cookies to: /cas/
+2020-02-12 22:18:58,745 INFO [org.jasig.cas.services.DefaultServicesManagerImpl] - Reloading registered services.
+2020-02-12 22:18:58,747 INFO [org.jasig.cas.services.DefaultServicesManagerImpl] - Loaded 1 services.
+2020-02-12 22:20:58,739 INFO [org.jasig.cas.services.DefaultServicesManagerImpl] - Reloading registered services.
+2020-02-12 22:20:58,743 INFO [org.jasig.cas.services.DefaultServicesManagerImpl] - Loaded 1 services.
+2020-02-12 22:22:58,735 INFO [org.jasig.cas.services.DefaultServicesManagerImpl] - Reloading registered services.
+2020-02-12 22:22:58,736 INFO [org.jasig.cas.services.DefaultServicesManagerImpl] - Loaded 1 services.
+2020-02-12 22:24:58,735 INFO [org.jasig.cas.services.DefaultServicesManagerImpl] - Reloading registered services.
+2020-02-12 22:24:58,740 INFO [org.jasig.cas.services.DefaultServicesManagerImpl] - Loaded 1 services.
+2020-02-12 22:25:10,093 INFO [com.github.inspektr.audit.support.Slf4jLoggingAuditTrailManager] - Audit trail record BEGIN
+=============================================================
+WHO: audit:unknown
+WHAT: supplied credentials: [ssouser2+password]
+ACTION: AUTHENTICATION_FAILED
+APPLICATION: CAS
+WHEN: Wed Feb 12 22:25:09 CET 2020
+CLIENT IP ADDRESS: 0:0:0:0:0:0:0:1
+SERVER IP ADDRESS: 0:0:0:0:0:0:0:1
+=============================================================
+
+
+2020-02-12 22:25:10,099 INFO [com.github.inspektr.audit.support.Slf4jLoggingAuditTrailManager] - Audit trail record BEGIN
+=============================================================
+WHO: audit:unknown
+WHAT: 1 errors, 0 successes
+ACTION: TICKET_GRANTING_TICKET_NOT_CREATED
+APPLICATION: CAS
+WHEN: Wed Feb 12 22:25:10 CET 2020
+CLIENT IP ADDRESS: 0:0:0:0:0:0:0:1
+SERVER IP ADDRESS: 0:0:0:0:0:0:0:1
+=============================================================
+
+
+2020-02-12 22:26:00,515 INFO [com.github.inspektr.audit.support.Slf4jLoggingAuditTrailManager] - Audit trail record BEGIN
+=============================================================
+WHO: audit:unknown
+WHAT: supplied credentials: [ssouser+password]
+ACTION: AUTHENTICATION_FAILED
+APPLICATION: CAS
+WHEN: Wed Feb 12 22:26:00 CET 2020
+CLIENT IP ADDRESS: 0:0:0:0:0:0:0:1
+SERVER IP ADDRESS: 0:0:0:0:0:0:0:1
+=============================================================
+
+
+2020-02-12 22:26:00,518 INFO [com.github.inspektr.audit.support.Slf4jLoggingAuditTrailManager] - Audit trail record BEGIN
+=============================================================
+WHO: audit:unknown
+WHAT: 1 errors, 0 successes
+ACTION: TICKET_GRANTING_TICKET_NOT_CREATED
+APPLICATION: CAS
+WHEN: Wed Feb 12 22:26:00 CET 2020
+CLIENT IP ADDRESS: 0:0:0:0:0:0:0:1
+SERVER IP ADDRESS: 0:0:0:0:0:0:0:1
+=============================================================
+
+
+2020-02-12 22:26:58,735 INFO [org.jasig.cas.services.DefaultServicesManagerImpl] - Reloading registered services.
+2020-02-12 22:26:58,736 INFO [org.jasig.cas.services.DefaultServicesManagerImpl] - Loaded 1 services.
+2020-02-12 22:28:58,748 INFO [org.jasig.cas.services.DefaultServicesManagerImpl] - Reloading registered services.
+2020-02-12 22:28:58,798 INFO [org.jasig.cas.services.DefaultServicesManagerImpl] - Loaded 1 services.
+2020-02-12 22:30:58,737 INFO [org.jasig.cas.services.DefaultServicesManagerImpl] - Reloading registered services.
+2020-02-12 22:30:58,737 INFO [org.jasig.cas.services.DefaultServicesManagerImpl] - Loaded 1 services.
+2020-02-12 22:33:48,553 INFO [org.jasig.cas.services.DefaultServicesManagerImpl] - Loaded 1 services.
+2020-02-12 22:33:54,537 INFO [org.jasig.cas.util.AutowiringSchedulerFactoryBean] - Starting Quartz Scheduler now
+2020-02-12 22:34:09,635 INFO [org.jasig.cas.ticket.registry.support.DefaultTicketRegistryCleaner] - Beginning ticket cleanup.
+2020-02-12 22:34:09,650 INFO [org.jasig.cas.ticket.registry.support.DefaultTicketRegistryCleaner] - 0 tickets found to be removed.
+2020-02-12 22:34:09,650 INFO [org.jasig.cas.ticket.registry.support.DefaultTicketRegistryCleaner] - Finished ticket cleanup.
+2020-02-12 22:34:32,697 INFO [org.jasig.cas.web.flow.InitialFlowSetupAction] - Setting path for cookies to: /cas/
+2020-02-12 22:34:32,697 INFO [org.jasig.cas.web.flow.InitialFlowSetupAction] - Setting path for cookies to: /cas/
+2020-02-12 22:34:59,380 INFO [org.jasig.cas.authentication.PolicyBasedAuthenticationManager] - SearchModeSearchDatabaseAuthenticationHandler successfully authenticated stefanm+password
+2020-02-12 22:34:59,396 INFO [org.jasig.cas.authentication.PolicyBasedAuthenticationManager] - Authenticated stefanm with credentials [stefanm+password].
+2020-02-12 22:34:59,427 INFO [com.github.inspektr.audit.support.Slf4jLoggingAuditTrailManager] - Audit trail record BEGIN
+=============================================================
+WHO: audit:unknown
+WHAT: supplied credentials: [stefanm+password]
+ACTION: AUTHENTICATION_SUCCESS
+APPLICATION: CAS
+WHEN: Wed Feb 12 22:34:59 CET 2020
+CLIENT IP ADDRESS: 0:0:0:0:0:0:0:1
+SERVER IP ADDRESS: 0:0:0:0:0:0:0:1
+=============================================================
+
+
+2020-02-12 22:34:59,458 INFO [com.github.inspektr.audit.support.Slf4jLoggingAuditTrailManager] - Audit trail record BEGIN
+=============================================================
+WHO: audit:unknown
+WHAT: TGT-1-tePXdLAMCBhCYHAB7CrqEkwuIQ9NccUtNk7TXAgcQo0P3WY0jQ-cas01.example.org
+ACTION: TICKET_GRANTING_TICKET_CREATED
+APPLICATION: CAS
+WHEN: Wed Feb 12 22:34:59 CET 2020
+CLIENT IP ADDRESS: 0:0:0:0:0:0:0:1
+SERVER IP ADDRESS: 0:0:0:0:0:0:0:1
+=============================================================
+
+
+2020-02-12 22:35:41,513 INFO [com.github.inspektr.audit.support.Slf4jLoggingAuditTrailManager] - Audit trail record BEGIN
+=============================================================
+WHO: audit:unknown
+WHAT: TGT-1-tePXdLAMCBhCYHAB7CrqEkwuIQ9NccUtNk7TXAgcQo0P3WY0jQ-cas01.example.org
+ACTION: TICKET_GRANTING_TICKET_DESTROYED
+APPLICATION: CAS
+WHEN: Wed Feb 12 22:35:41 CET 2020
+CLIENT IP ADDRESS: 0:0:0:0:0:0:0:1
+SERVER IP ADDRESS: 0:0:0:0:0:0:0:1
+=============================================================
+
+
+2020-02-12 22:35:49,825 INFO [org.jasig.cas.services.DefaultServicesManagerImpl] - Reloading registered services.
+2020-02-12 22:35:49,825 INFO [org.jasig.cas.services.DefaultServicesManagerImpl] - Loaded 1 services.
+2020-02-12 22:37:49,825 INFO [org.jasig.cas.services.DefaultServicesManagerImpl] - Reloading registered services.
+2020-02-12 22:37:49,825 INFO [org.jasig.cas.services.DefaultServicesManagerImpl] - Loaded 1 services.
+2020-02-12 22:40:30,606 INFO [org.jasig.cas.services.DefaultServicesManagerImpl] - Loaded 1 services.
+2020-02-12 22:40:38,038 INFO [org.jasig.cas.util.AutowiringSchedulerFactoryBean] - Starting Quartz Scheduler now
+2020-02-12 22:40:51,933 INFO [org.jasig.cas.ticket.registry.support.DefaultTicketRegistryCleaner] - Beginning ticket cleanup.
+2020-02-12 22:42:32,406 INFO [org.jasig.cas.services.DefaultServicesManagerImpl] - Reloading registered services.
+2020-02-12 22:44:32,366 INFO [org.jasig.cas.services.DefaultServicesManagerImpl] - Reloading registered services.
+2020-02-12 22:45:05,905 INFO [org.jasig.cas.services.DefaultServicesManagerImpl] - Loaded 1 services.
+2020-02-12 22:45:05,908 INFO [org.jasig.cas.services.DefaultServicesManagerImpl] - Loaded 1 services.
+2020-02-12 22:45:05,937 INFO [org.jasig.cas.ticket.registry.support.DefaultTicketRegistryCleaner] - 0 tickets found to be removed.
+2020-02-12 22:45:05,938 INFO [org.jasig.cas.ticket.registry.support.DefaultTicketRegistryCleaner] - Finished ticket cleanup.
+2020-02-12 22:46:00,242 INFO [org.jasig.cas.services.DefaultServicesManagerImpl] - Loaded 1 services.
+2020-02-12 22:46:06,581 INFO [org.jasig.cas.util.AutowiringSchedulerFactoryBean] - Starting Quartz Scheduler now
+2020-02-12 22:46:21,415 INFO [org.jasig.cas.ticket.registry.support.DefaultTicketRegistryCleaner] - Beginning ticket cleanup.
+2020-02-12 22:46:21,477 INFO [org.jasig.cas.ticket.registry.support.DefaultTicketRegistryCleaner] - 0 tickets found to be removed.
+2020-02-12 22:46:21,482 INFO [org.jasig.cas.ticket.registry.support.DefaultTicketRegistryCleaner] - Finished ticket cleanup.
+2020-02-12 22:46:42,965 INFO [org.jasig.cas.web.flow.InitialFlowSetupAction] - Setting path for cookies to: /cas/
+2020-02-12 22:46:42,965 INFO [org.jasig.cas.web.flow.InitialFlowSetupAction] - Setting path for cookies to: /cas/
+2020-02-12 22:48:01,702 INFO [org.jasig.cas.services.DefaultServicesManagerImpl] - Reloading registered services.
+2020-02-12 22:50:01,607 INFO [org.jasig.cas.services.DefaultServicesManagerImpl] - Reloading registered services.
+2020-02-12 22:50:32,566 INFO [org.jasig.cas.web.flow.InitialFlowSetupAction] - Setting path for cookies to: /cas/
+2020-02-12 22:50:32,566 INFO [org.jasig.cas.web.flow.InitialFlowSetupAction] - Setting path for cookies to: /cas/
+2020-02-12 22:52:01,606 INFO [org.jasig.cas.services.DefaultServicesManagerImpl] - Reloading registered services.
+2020-02-12 22:54:01,606 INFO [org.jasig.cas.services.DefaultServicesManagerImpl] - Reloading registered services.
+2020-02-12 22:56:01,607 INFO [org.jasig.cas.services.DefaultServicesManagerImpl] - Reloading registered services.
+2020-02-12 22:57:33,863 INFO [org.jasig.cas.web.flow.InitialFlowSetupAction] - Setting path for cookies to: /cas/
+2020-02-12 22:57:33,863 INFO [org.jasig.cas.web.flow.InitialFlowSetupAction] - Setting path for cookies to: /cas/
+2020-02-12 22:57:47,196 INFO [org.jasig.cas.web.flow.InitialFlowSetupAction] - Setting path for cookies to: /cas/
+2020-02-12 22:57:47,196 INFO [org.jasig.cas.web.flow.InitialFlowSetupAction] - Setting path for cookies to: /cas/
+2020-02-12 22:58:01,607 INFO [org.jasig.cas.services.DefaultServicesManagerImpl] - Reloading registered services.
+2020-02-12 23:00:01,607 INFO [org.jasig.cas.services.DefaultServicesManagerImpl] - Reloading registered services.
+2020-02-12 23:02:01,606 INFO [org.jasig.cas.services.DefaultServicesManagerImpl] - Reloading registered services.
+2020-02-12 23:02:11,549 INFO [org.jasig.cas.web.flow.InitialFlowSetupAction] - Setting path for cookies to: /cas/
+2020-02-12 23:02:11,549 INFO [org.jasig.cas.web.flow.InitialFlowSetupAction] - Setting path for cookies to: /cas/
+2020-02-12 23:02:47,212 INFO [org.jasig.cas.web.flow.InitialFlowSetupAction] - Setting path for cookies to: /cas/
+2020-02-12 23:02:47,212 INFO [org.jasig.cas.web.flow.InitialFlowSetupAction] - Setting path for cookies to: /cas/
+2020-02-12 23:03:17,722 INFO [org.jasig.cas.web.flow.InitialFlowSetupAction] - Setting path for cookies to: /cas/
+2020-02-12 23:03:17,722 INFO [org.jasig.cas.web.flow.InitialFlowSetupAction] - Setting path for cookies to: /cas/
+2020-02-12 23:04:01,607 INFO [org.jasig.cas.services.DefaultServicesManagerImpl] - Reloading registered services.
+2020-02-12 23:06:01,606 INFO [org.jasig.cas.services.DefaultServicesManagerImpl] - Reloading registered services.
+2020-02-12 23:06:32,904 INFO [org.jasig.cas.web.flow.InitialFlowSetupAction] - Setting path for cookies to: /cas/
+2020-02-12 23:06:32,904 INFO [org.jasig.cas.web.flow.InitialFlowSetupAction] - Setting path for cookies to: /cas/
+2020-02-12 23:07:31,349 INFO [org.jasig.cas.services.DefaultServicesManagerImpl] - Loaded 1 services.
+2020-02-12 23:07:37,249 INFO [org.jasig.cas.util.AutowiringSchedulerFactoryBean] - Starting Quartz Scheduler now
+2020-02-12 23:07:52,433 INFO [org.jasig.cas.ticket.registry.support.DefaultTicketRegistryCleaner] - Beginning ticket cleanup.
+2020-02-12 23:07:52,471 INFO [org.jasig.cas.ticket.registry.support.DefaultTicketRegistryCleaner] - 0 tickets found to be removed.
+2020-02-12 23:07:52,475 INFO [org.jasig.cas.ticket.registry.support.DefaultTicketRegistryCleaner] - Finished ticket cleanup.
+2020-02-12 23:08:42,300 INFO [org.jasig.cas.web.flow.InitialFlowSetupAction] - Setting path for cookies to: /cas/
+2020-02-12 23:08:42,300 INFO [org.jasig.cas.web.flow.InitialFlowSetupAction] - Setting path for cookies to: /cas/
+2020-02-12 23:09:32,564 INFO [org.jasig.cas.services.DefaultServicesManagerImpl] - Reloading registered services.
+2020-02-12 23:09:32,566 INFO [org.jasig.cas.services.DefaultServicesManagerImpl] - Loaded 1 services.
+2020-02-12 23:10:09,858 INFO [org.jasig.cas.authentication.PolicyBasedAuthenticationManager] - SearchModeSearchDatabaseAuthenticationHandler failed authenticating mils+password
+2020-02-12 23:10:09,889 INFO [com.github.inspektr.audit.support.Slf4jLoggingAuditTrailManager] - Audit trail record BEGIN
+=============================================================
+WHO: audit:unknown
+WHAT: supplied credentials: [mils+password]
+ACTION: AUTHENTICATION_FAILED
+APPLICATION: CAS
+WHEN: Wed Feb 12 23:10:09 CET 2020
+CLIENT IP ADDRESS: 0:0:0:0:0:0:0:1
+SERVER IP ADDRESS: 0:0:0:0:0:0:0:1
+=============================================================
+
+
+2020-02-12 23:10:09,898 INFO [com.github.inspektr.audit.support.Slf4jLoggingAuditTrailManager] - Audit trail record BEGIN
+=============================================================
+WHO: audit:unknown
+WHAT: 1 errors, 0 successes
+ACTION: TICKET_GRANTING_TICKET_NOT_CREATED
+APPLICATION: CAS
+WHEN: Wed Feb 12 23:10:09 CET 2020
+CLIENT IP ADDRESS: 0:0:0:0:0:0:0:1
+SERVER IP ADDRESS: 0:0:0:0:0:0:0:1
+=============================================================
+
+
+2020-02-12 23:10:15,403 INFO [org.jasig.cas.authentication.PolicyBasedAuthenticationManager] - SearchModeSearchDatabaseAuthenticationHandler failed authenticating mils+password
+2020-02-12 23:10:15,406 INFO [com.github.inspektr.audit.support.Slf4jLoggingAuditTrailManager] - Audit trail record BEGIN
+=============================================================
+WHO: audit:unknown
+WHAT: supplied credentials: [mils+password]
+ACTION: AUTHENTICATION_FAILED
+APPLICATION: CAS
+WHEN: Wed Feb 12 23:10:15 CET 2020
+CLIENT IP ADDRESS: 0:0:0:0:0:0:0:1
+SERVER IP ADDRESS: 0:0:0:0:0:0:0:1
+=============================================================
+
+
+2020-02-12 23:10:15,415 INFO [com.github.inspektr.audit.support.Slf4jLoggingAuditTrailManager] - Audit trail record BEGIN
+=============================================================
+WHO: audit:unknown
+WHAT: 1 errors, 0 successes
+ACTION: TICKET_GRANTING_TICKET_NOT_CREATED
+APPLICATION: CAS
+WHEN: Wed Feb 12 23:10:15 CET 2020
+CLIENT IP ADDRESS: 0:0:0:0:0:0:0:1
+SERVER IP ADDRESS: 0:0:0:0:0:0:0:1
+=============================================================
+
+
+2020-02-12 23:11:21,850 INFO [org.jasig.cas.authentication.PolicyBasedAuthenticationManager] - SearchModeSearchDatabaseAuthenticationHandler failed authenticating mils+password
+2020-02-12 23:11:21,850 INFO [com.github.inspektr.audit.support.Slf4jLoggingAuditTrailManager] - Audit trail record BEGIN
+=============================================================
+WHO: audit:unknown
+WHAT: supplied credentials: [mils+password]
+ACTION: AUTHENTICATION_FAILED
+APPLICATION: CAS
+WHEN: Wed Feb 12 23:11:21 CET 2020
+CLIENT IP ADDRESS: 0:0:0:0:0:0:0:1
+SERVER IP ADDRESS: 0:0:0:0:0:0:0:1
+=============================================================
+
+
+2020-02-12 23:11:21,865 INFO [com.github.inspektr.audit.support.Slf4jLoggingAuditTrailManager] - Audit trail record BEGIN
+=============================================================
+WHO: audit:unknown
+WHAT: 1 errors, 0 successes
+ACTION: TICKET_GRANTING_TICKET_NOT_CREATED
+APPLICATION: CAS
+WHEN: Wed Feb 12 23:11:21 CET 2020
+CLIENT IP ADDRESS: 0:0:0:0:0:0:0:1
+SERVER IP ADDRESS: 0:0:0:0:0:0:0:1
+=============================================================
+
+
+2020-02-12 23:11:32,571 INFO [org.jasig.cas.services.DefaultServicesManagerImpl] - Reloading registered services.
+2020-02-12 23:11:32,571 INFO [org.jasig.cas.services.DefaultServicesManagerImpl] - Loaded 1 services.
+2020-02-12 23:13:32,576 INFO [org.jasig.cas.services.DefaultServicesManagerImpl] - Reloading registered services.
+2020-02-12 23:13:32,576 INFO [org.jasig.cas.services.DefaultServicesManagerImpl] - Loaded 1 services.
+2020-02-12 23:15:10,068 INFO [org.jasig.cas.authentication.PolicyBasedAuthenticationManager] - SearchModeSearchDatabaseAuthenticationHandler failed authenticating mils+password
+2020-02-12 23:15:10,068 INFO [com.github.inspektr.audit.support.Slf4jLoggingAuditTrailManager] - Audit trail record BEGIN
+=============================================================
+WHO: audit:unknown
+WHAT: supplied credentials: [mils+password]
+ACTION: AUTHENTICATION_FAILED
+APPLICATION: CAS
+WHEN: Wed Feb 12 23:15:10 CET 2020
+CLIENT IP ADDRESS: 0:0:0:0:0:0:0:1
+SERVER IP ADDRESS: 0:0:0:0:0:0:0:1
+=============================================================
+
+
+2020-02-12 23:15:10,068 INFO [com.github.inspektr.audit.support.Slf4jLoggingAuditTrailManager] - Audit trail record BEGIN
+=============================================================
+WHO: audit:unknown
+WHAT: 1 errors, 0 successes
+ACTION: TICKET_GRANTING_TICKET_NOT_CREATED
+APPLICATION: CAS
+WHEN: Wed Feb 12 23:15:10 CET 2020
+CLIENT IP ADDRESS: 0:0:0:0:0:0:0:1
+SERVER IP ADDRESS: 0:0:0:0:0:0:0:1
+=============================================================
+
+
+2020-02-12 23:15:32,569 INFO [org.jasig.cas.services.DefaultServicesManagerImpl] - Reloading registered services.
+2020-02-12 23:15:32,569 INFO [org.jasig.cas.services.DefaultServicesManagerImpl] - Loaded 1 services.
+2020-02-12 23:17:14,230 INFO [org.jasig.cas.services.DefaultServicesManagerImpl] - Loaded 1 services.
+2020-02-12 23:17:19,388 INFO [org.jasig.cas.util.AutowiringSchedulerFactoryBean] - Starting Quartz Scheduler now
+2020-02-12 23:17:35,155 INFO [org.jasig.cas.ticket.registry.support.DefaultTicketRegistryCleaner] - Beginning ticket cleanup.
+2020-02-12 23:17:35,186 INFO [org.jasig.cas.ticket.registry.support.DefaultTicketRegistryCleaner] - 0 tickets found to be removed.
+2020-02-12 23:17:35,186 INFO [org.jasig.cas.ticket.registry.support.DefaultTicketRegistryCleaner] - Finished ticket cleanup.
+2020-02-12 23:18:23,309 INFO [org.jasig.cas.web.flow.InitialFlowSetupAction] - Setting path for cookies to: /cas/
+2020-02-12 23:18:23,309 INFO [org.jasig.cas.web.flow.InitialFlowSetupAction] - Setting path for cookies to: /cas/
+2020-02-12 23:19:15,381 INFO [org.jasig.cas.services.DefaultServicesManagerImpl] - Reloading registered services.
+2020-02-12 23:19:15,381 INFO [org.jasig.cas.services.DefaultServicesManagerImpl] - Loaded 1 services.
+2020-02-12 23:19:27,414 INFO [org.jasig.cas.authentication.PolicyBasedAuthenticationManager] - SearchModeSearchDatabaseAuthenticationHandler failed authenticating mils+password
+2020-02-12 23:19:27,446 INFO [com.github.inspektr.audit.support.Slf4jLoggingAuditTrailManager] - Audit trail record BEGIN
+=============================================================
+WHO: audit:unknown
+WHAT: supplied credentials: [mils+password]
+ACTION: AUTHENTICATION_FAILED
+APPLICATION: CAS
+WHEN: Wed Feb 12 23:19:27 CET 2020
+CLIENT IP ADDRESS: 0:0:0:0:0:0:0:1
+SERVER IP ADDRESS: 0:0:0:0:0:0:0:1
+=============================================================
+
+
+2020-02-12 23:19:27,461 INFO [com.github.inspektr.audit.support.Slf4jLoggingAuditTrailManager] - Audit trail record BEGIN
+=============================================================
+WHO: audit:unknown
+WHAT: 1 errors, 0 successes
+ACTION: TICKET_GRANTING_TICKET_NOT_CREATED
+APPLICATION: CAS
+WHEN: Wed Feb 12 23:19:27 CET 2020
+CLIENT IP ADDRESS: 0:0:0:0:0:0:0:1
+SERVER IP ADDRESS: 0:0:0:0:0:0:0:1
+=============================================================
+
+
+2020-02-12 23:19:38,229 INFO [org.jasig.cas.authentication.PolicyBasedAuthenticationManager] - SearchModeSearchDatabaseAuthenticationHandler failed authenticating admin+password
+2020-02-12 23:19:38,245 INFO [com.github.inspektr.audit.support.Slf4jLoggingAuditTrailManager] - Audit trail record BEGIN
+=============================================================
+WHO: audit:unknown
+WHAT: supplied credentials: [admin+password]
+ACTION: AUTHENTICATION_FAILED
+APPLICATION: CAS
+WHEN: Wed Feb 12 23:19:38 CET 2020
+CLIENT IP ADDRESS: 0:0:0:0:0:0:0:1
+SERVER IP ADDRESS: 0:0:0:0:0:0:0:1
+=============================================================
+
+
+2020-02-12 23:19:38,245 INFO [com.github.inspektr.audit.support.Slf4jLoggingAuditTrailManager] - Audit trail record BEGIN
+=============================================================
+WHO: audit:unknown
+WHAT: 1 errors, 0 successes
+ACTION: TICKET_GRANTING_TICKET_NOT_CREATED
+APPLICATION: CAS
+WHEN: Wed Feb 12 23:19:38 CET 2020
+CLIENT IP ADDRESS: 0:0:0:0:0:0:0:1
+SERVER IP ADDRESS: 0:0:0:0:0:0:0:1
+=============================================================
+
+
+2020-02-12 23:21:15,385 INFO [org.jasig.cas.services.DefaultServicesManagerImpl] - Reloading registered services.
+2020-02-12 23:23:15,376 INFO [org.jasig.cas.services.DefaultServicesManagerImpl] - Reloading registered services.
+2020-02-12 23:23:40,102 INFO [org.jasig.cas.authentication.PolicyBasedAuthenticationManager] - SearchModeSearchDatabaseAuthenticationHandler failed authenticating mils+password
+2020-02-12 23:24:11,741 INFO [org.jasig.cas.services.DefaultServicesManagerImpl] - Loaded 1 services.
+2020-02-12 23:24:11,756 INFO [org.jasig.cas.services.DefaultServicesManagerImpl] - Loaded 1 services.
+2020-02-12 23:24:11,772 INFO [com.github.inspektr.audit.support.Slf4jLoggingAuditTrailManager] - Audit trail record BEGIN
+=============================================================
+WHO: audit:unknown
+WHAT: supplied credentials: [mils+password]
+ACTION: AUTHENTICATION_FAILED
+APPLICATION: CAS
+WHEN: Wed Feb 12 23:24:11 CET 2020
+CLIENT IP ADDRESS: 0:0:0:0:0:0:0:1
+SERVER IP ADDRESS: 0:0:0:0:0:0:0:1
+=============================================================
+
+
+2020-02-12 23:24:11,788 INFO [com.github.inspektr.audit.support.Slf4jLoggingAuditTrailManager] - Audit trail record BEGIN
+=============================================================
+WHO: audit:unknown
+WHAT: 1 errors, 0 successes
+ACTION: TICKET_GRANTING_TICKET_NOT_CREATED
+APPLICATION: CAS
+WHEN: Wed Feb 12 23:24:11 CET 2020
+CLIENT IP ADDRESS: 0:0:0:0:0:0:0:1
+SERVER IP ADDRESS: 0:0:0:0:0:0:0:1
+=============================================================
+
+
+2020-02-12 23:24:30,874 INFO [org.jasig.cas.authentication.PolicyBasedAuthenticationManager] - SearchModeSearchDatabaseAuthenticationHandler failed authenticating mils+password
+2020-02-12 23:24:30,874 INFO [com.github.inspektr.audit.support.Slf4jLoggingAuditTrailManager] - Audit trail record BEGIN
+=============================================================
+WHO: audit:unknown
+WHAT: supplied credentials: [mils+password]
+ACTION: AUTHENTICATION_FAILED
+APPLICATION: CAS
+WHEN: Wed Feb 12 23:24:30 CET 2020
+CLIENT IP ADDRESS: 0:0:0:0:0:0:0:1
+SERVER IP ADDRESS: 0:0:0:0:0:0:0:1
+=============================================================
+
+
+2020-02-12 23:24:30,874 INFO [com.github.inspektr.audit.support.Slf4jLoggingAuditTrailManager] - Audit trail record BEGIN
+=============================================================
+WHO: audit:unknown
+WHAT: 1 errors, 0 successes
+ACTION: TICKET_GRANTING_TICKET_NOT_CREATED
+APPLICATION: CAS
+WHEN: Wed Feb 12 23:24:30 CET 2020
+CLIENT IP ADDRESS: 0:0:0:0:0:0:0:1
+SERVER IP ADDRESS: 0:0:0:0:0:0:0:1
+=============================================================
+
+
+2020-02-12 23:24:36,156 INFO [org.jasig.cas.authentication.PolicyBasedAuthenticationManager] - SearchModeSearchDatabaseAuthenticationHandler failed authenticating mils+password
+2020-02-12 23:24:36,156 INFO [com.github.inspektr.audit.support.Slf4jLoggingAuditTrailManager] - Audit trail record BEGIN
+=============================================================
+WHO: audit:unknown
+WHAT: supplied credentials: [mils+password]
+ACTION: AUTHENTICATION_FAILED
+APPLICATION: CAS
+WHEN: Wed Feb 12 23:24:36 CET 2020
+CLIENT IP ADDRESS: 0:0:0:0:0:0:0:1
+SERVER IP ADDRESS: 0:0:0:0:0:0:0:1
+=============================================================
+
+
+2020-02-12 23:24:36,156 INFO [com.github.inspektr.audit.support.Slf4jLoggingAuditTrailManager] - Audit trail record BEGIN
+=============================================================
+WHO: audit:unknown
+WHAT: 1 errors, 0 successes
+ACTION: TICKET_GRANTING_TICKET_NOT_CREATED
+APPLICATION: CAS
+WHEN: Wed Feb 12 23:24:36 CET 2020
+CLIENT IP ADDRESS: 0:0:0:0:0:0:0:1
+SERVER IP ADDRESS: 0:0:0:0:0:0:0:1
+=============================================================
+
+
+2020-02-12 23:24:52,486 INFO [org.jasig.cas.authentication.PolicyBasedAuthenticationManager] - SearchModeSearchDatabaseAuthenticationHandler failed authenticating mils+password
+2020-02-12 23:24:52,489 INFO [com.github.inspektr.audit.support.Slf4jLoggingAuditTrailManager] - Audit trail record BEGIN
+=============================================================
+WHO: audit:unknown
+WHAT: supplied credentials: [mils+password]
+ACTION: AUTHENTICATION_FAILED
+APPLICATION: CAS
+WHEN: Wed Feb 12 23:24:52 CET 2020
+CLIENT IP ADDRESS: 0:0:0:0:0:0:0:1
+SERVER IP ADDRESS: 0:0:0:0:0:0:0:1
+=============================================================
+
+
+2020-02-12 23:24:52,489 INFO [com.github.inspektr.audit.support.Slf4jLoggingAuditTrailManager] - Audit trail record BEGIN
+=============================================================
+WHO: audit:unknown
+WHAT: 1 errors, 0 successes
+ACTION: TICKET_GRANTING_TICKET_NOT_CREATED
+APPLICATION: CAS
+WHEN: Wed Feb 12 23:24:52 CET 2020
+CLIENT IP ADDRESS: 0:0:0:0:0:0:0:1
+SERVER IP ADDRESS: 0:0:0:0:0:0:0:1
+=============================================================
+
+
+2020-02-12 23:25:15,383 INFO [org.jasig.cas.services.DefaultServicesManagerImpl] - Reloading registered services.
+2020-02-12 23:25:15,383 INFO [org.jasig.cas.services.DefaultServicesManagerImpl] - Loaded 1 services.
+2020-02-12 23:25:39,259 INFO [org.jasig.cas.authentication.PolicyBasedAuthenticationManager] - SearchModeSearchDatabaseAuthenticationHandler successfully authenticated mils+password
+2020-02-12 23:25:39,259 INFO [org.jasig.cas.authentication.PolicyBasedAuthenticationManager] - Authenticated mils with credentials [mils+password].
+2020-02-12 23:25:39,259 INFO [com.github.inspektr.audit.support.Slf4jLoggingAuditTrailManager] - Audit trail record BEGIN
+=============================================================
+WHO: audit:unknown
+WHAT: supplied credentials: [mils+password]
+ACTION: AUTHENTICATION_SUCCESS
+APPLICATION: CAS
+WHEN: Wed Feb 12 23:25:39 CET 2020
+CLIENT IP ADDRESS: 0:0:0:0:0:0:0:1
+SERVER IP ADDRESS: 0:0:0:0:0:0:0:1
+=============================================================
+
+
+2020-02-12 23:25:39,274 INFO [com.github.inspektr.audit.support.Slf4jLoggingAuditTrailManager] - Audit trail record BEGIN
+=============================================================
+WHO: audit:unknown
+WHAT: TGT-1-b44DSQKPMAikkA0xytCkdmK2pCfbay5dWmNeH3pecue2CItzND-cas01.example.org
+ACTION: TICKET_GRANTING_TICKET_CREATED
+APPLICATION: CAS
+WHEN: Wed Feb 12 23:25:39 CET 2020
+CLIENT IP ADDRESS: 0:0:0:0:0:0:0:1
+SERVER IP ADDRESS: 0:0:0:0:0:0:0:1
+=============================================================
+
+
+2020-02-12 23:26:14,769 INFO [com.github.inspektr.audit.support.Slf4jLoggingAuditTrailManager] - Audit trail record BEGIN
+=============================================================
+WHO: audit:unknown
+WHAT: TGT-1-b44DSQKPMAikkA0xytCkdmK2pCfbay5dWmNeH3pecue2CItzND-cas01.example.org
+ACTION: TICKET_GRANTING_TICKET_DESTROYED
+APPLICATION: CAS
+WHEN: Wed Feb 12 23:26:14 CET 2020
+CLIENT IP ADDRESS: 0:0:0:0:0:0:0:1
+SERVER IP ADDRESS: 0:0:0:0:0:0:0:1
+=============================================================
+
+
+2020-02-12 23:26:26,303 INFO [org.jasig.cas.authentication.PolicyBasedAuthenticationManager] - SearchModeSearchDatabaseAuthenticationHandler successfully authenticated admin+password
+2020-02-12 23:26:26,318 INFO [org.jasig.cas.authentication.PolicyBasedAuthenticationManager] - Authenticated admin with credentials [admin+password].
+2020-02-12 23:26:26,318 INFO [com.github.inspektr.audit.support.Slf4jLoggingAuditTrailManager] - Audit trail record BEGIN
+=============================================================
+WHO: audit:unknown
+WHAT: supplied credentials: [admin+password]
+ACTION: AUTHENTICATION_SUCCESS
+APPLICATION: CAS
+WHEN: Wed Feb 12 23:26:26 CET 2020
+CLIENT IP ADDRESS: 0:0:0:0:0:0:0:1
+SERVER IP ADDRESS: 0:0:0:0:0:0:0:1
+=============================================================
+
+
+2020-02-12 23:26:26,318 INFO [com.github.inspektr.audit.support.Slf4jLoggingAuditTrailManager] - Audit trail record BEGIN
+=============================================================
+WHO: audit:unknown
+WHAT: TGT-2-FTCychawXeyAoab7wcev6fcHQ5bxZUlvm2oWoV2FUYFWw9ULAD-cas01.example.org
+ACTION: TICKET_GRANTING_TICKET_CREATED
+APPLICATION: CAS
+WHEN: Wed Feb 12 23:26:26 CET 2020
+CLIENT IP ADDRESS: 0:0:0:0:0:0:0:1
+SERVER IP ADDRESS: 0:0:0:0:0:0:0:1
+=============================================================
+
+
+2020-02-12 23:26:29,884 INFO [com.github.inspektr.audit.support.Slf4jLoggingAuditTrailManager] - Audit trail record BEGIN
+=============================================================
+WHO: audit:unknown
+WHAT: TGT-2-FTCychawXeyAoab7wcev6fcHQ5bxZUlvm2oWoV2FUYFWw9ULAD-cas01.example.org
+ACTION: TICKET_GRANTING_TICKET_DESTROYED
+APPLICATION: CAS
+WHEN: Wed Feb 12 23:26:29 CET 2020
+CLIENT IP ADDRESS: 0:0:0:0:0:0:0:1
+SERVER IP ADDRESS: 0:0:0:0:0:0:0:1
+=============================================================
+
+
+2020-02-12 23:26:36,931 INFO [org.jasig.cas.authentication.PolicyBasedAuthenticationManager] - SearchModeSearchDatabaseAuthenticationHandler failed authenticating admin+password
+2020-02-12 23:26:36,946 INFO [com.github.inspektr.audit.support.Slf4jLoggingAuditTrailManager] - Audit trail record BEGIN
+=============================================================
+WHO: audit:unknown
+WHAT: supplied credentials: [admin+password]
+ACTION: AUTHENTICATION_FAILED
+APPLICATION: CAS
+WHEN: Wed Feb 12 23:26:36 CET 2020
+CLIENT IP ADDRESS: 0:0:0:0:0:0:0:1
+SERVER IP ADDRESS: 0:0:0:0:0:0:0:1
+=============================================================
+
+
+2020-02-12 23:26:36,946 INFO [com.github.inspektr.audit.support.Slf4jLoggingAuditTrailManager] - Audit trail record BEGIN
+=============================================================
+WHO: audit:unknown
+WHAT: 1 errors, 0 successes
+ACTION: TICKET_GRANTING_TICKET_NOT_CREATED
+APPLICATION: CAS
+WHEN: Wed Feb 12 23:26:36 CET 2020
+CLIENT IP ADDRESS: 0:0:0:0:0:0:0:1
+SERVER IP ADDRESS: 0:0:0:0:0:0:0:1
+=============================================================
+
+
+2020-02-12 23:26:39,763 INFO [org.jasig.cas.authentication.PolicyBasedAuthenticationManager] - SearchModeSearchDatabaseAuthenticationHandler successfully authenticated admin+password
+2020-02-12 23:26:39,763 INFO [org.jasig.cas.authentication.PolicyBasedAuthenticationManager] - Authenticated admin with credentials [admin+password].
+2020-02-12 23:26:39,778 INFO [com.github.inspektr.audit.support.Slf4jLoggingAuditTrailManager] - Audit trail record BEGIN
+=============================================================
+WHO: audit:unknown
+WHAT: supplied credentials: [admin+password]
+ACTION: AUTHENTICATION_SUCCESS
+APPLICATION: CAS
+WHEN: Wed Feb 12 23:26:39 CET 2020
+CLIENT IP ADDRESS: 0:0:0:0:0:0:0:1
+SERVER IP ADDRESS: 0:0:0:0:0:0:0:1
+=============================================================
+
+
+2020-02-12 23:26:39,778 INFO [com.github.inspektr.audit.support.Slf4jLoggingAuditTrailManager] - Audit trail record BEGIN
+=============================================================
+WHO: audit:unknown
+WHAT: TGT-3-zJgKDHtUB7JBIojxvwjeW7SZ9ivbNZi7VZGxlen0WVx7XTHuuT-cas01.example.org
+ACTION: TICKET_GRANTING_TICKET_CREATED
+APPLICATION: CAS
+WHEN: Wed Feb 12 23:26:39 CET 2020
+CLIENT IP ADDRESS: 0:0:0:0:0:0:0:1
+SERVER IP ADDRESS: 0:0:0:0:0:0:0:1
+=============================================================
+
+
+2020-02-12 23:27:15,377 INFO [org.jasig.cas.services.DefaultServicesManagerImpl] - Reloading registered services.
+2020-02-12 23:27:15,377 INFO [org.jasig.cas.services.DefaultServicesManagerImpl] - Loaded 1 services.
+2020-02-12 23:29:15,377 INFO [org.jasig.cas.services.DefaultServicesManagerImpl] - Reloading registered services.
+2020-02-12 23:29:15,377 INFO [org.jasig.cas.services.DefaultServicesManagerImpl] - Loaded 1 services.
+2020-02-12 23:31:15,384 INFO [org.jasig.cas.services.DefaultServicesManagerImpl] - Reloading registered services.
+2020-02-12 23:31:15,384 INFO [org.jasig.cas.services.DefaultServicesManagerImpl] - Loaded 1 services.
+2020-02-12 23:33:15,383 INFO [org.jasig.cas.services.DefaultServicesManagerImpl] - Reloading registered services.
+2020-02-12 23:33:15,383 INFO [org.jasig.cas.services.DefaultServicesManagerImpl] - Loaded 1 services.
+2020-02-12 23:35:03,900 INFO [com.github.inspektr.audit.support.Slf4jLoggingAuditTrailManager] - Audit trail record BEGIN
+=============================================================
+WHO: audit:unknown
+WHAT: TGT-3-zJgKDHtUB7JBIojxvwjeW7SZ9ivbNZi7VZGxlen0WVx7XTHuuT-cas01.example.org
+ACTION: TICKET_GRANTING_TICKET_DESTROYED
+APPLICATION: CAS
+WHEN: Wed Feb 12 23:35:03 CET 2020
+CLIENT IP ADDRESS: 0:0:0:0:0:0:0:1
+SERVER IP ADDRESS: 0:0:0:0:0:0:0:1
+=============================================================
+
+
+2020-02-12 23:35:15,373 INFO [org.jasig.cas.services.DefaultServicesManagerImpl] - Reloading registered services.
+2020-02-12 23:35:15,373 INFO [org.jasig.cas.services.DefaultServicesManagerImpl] - Loaded 1 services.
+2020-02-12 23:37:15,379 INFO [org.jasig.cas.services.DefaultServicesManagerImpl] - Reloading registered services.
+2020-02-12 23:39:15,375 INFO [org.jasig.cas.services.DefaultServicesManagerImpl] - Reloading registered services.
+2020-02-12 23:41:15,379 INFO [org.jasig.cas.services.DefaultServicesManagerImpl] - Reloading registered services.
+2020-02-12 23:43:15,380 INFO [org.jasig.cas.services.DefaultServicesManagerImpl] - Reloading registered services.
+2020-02-12 23:45:15,378 INFO [org.jasig.cas.services.DefaultServicesManagerImpl] - Reloading registered services.
+2020-02-12 23:47:15,381 INFO [org.jasig.cas.services.DefaultServicesManagerImpl] - Reloading registered services.
+2020-02-12 23:49:15,381 INFO [org.jasig.cas.services.DefaultServicesManagerImpl] - Reloading registered services.
+2020-02-12 23:51:15,384 INFO [org.jasig.cas.services.DefaultServicesManagerImpl] - Reloading registered services.
+2020-02-12 23:53:15,378 INFO [org.jasig.cas.services.DefaultServicesManagerImpl] - Reloading registered services.
+2020-02-12 23:55:15,378 INFO [org.jasig.cas.services.DefaultServicesManagerImpl] - Reloading registered services.
+2020-02-12 23:59:25,234 INFO [org.jasig.cas.authentication.PolicyBasedAuthenticationManager] - SearchModeSearchDatabaseAuthenticationHandler successfully authenticated mils+password
+2020-02-13 00:01:39,257 INFO [org.jasig.cas.services.DefaultServicesManagerImpl] - Loaded 1 services.
+2020-02-13 00:01:44,445 INFO [org.jasig.cas.util.AutowiringSchedulerFactoryBean] - Starting Quartz Scheduler now
+2020-02-13 00:01:59,842 INFO [org.jasig.cas.web.flow.InitialFlowSetupAction] - Setting path for cookies to: /cas/
+2020-02-13 00:01:59,842 INFO [org.jasig.cas.web.flow.InitialFlowSetupAction] - Setting path for cookies to: /cas/
+2020-02-13 00:02:00,092 INFO [org.jasig.cas.ticket.registry.support.DefaultTicketRegistryCleaner] - Beginning ticket cleanup.
+2020-02-13 00:02:00,139 INFO [org.jasig.cas.ticket.registry.support.DefaultTicketRegistryCleaner] - 0 tickets found to be removed.
+2020-02-13 00:02:00,139 INFO [org.jasig.cas.ticket.registry.support.DefaultTicketRegistryCleaner] - Finished ticket cleanup.
+2020-02-13 00:02:09,654 INFO [org.jasig.cas.authentication.PolicyBasedAuthenticationManager] - SearchModeSearchDatabaseAuthenticationHandler successfully authenticated admin+password
+2020-02-13 00:02:09,670 INFO [org.jasig.cas.authentication.PolicyBasedAuthenticationManager] - Authenticated admin with credentials [admin+password].
+2020-02-13 00:02:09,685 INFO [com.github.inspektr.audit.support.Slf4jLoggingAuditTrailManager] - Audit trail record BEGIN
+=============================================================
+WHO: audit:unknown
+WHAT: supplied credentials: [admin+password]
+ACTION: AUTHENTICATION_SUCCESS
+APPLICATION: CAS
+WHEN: Thu Feb 13 00:02:09 CET 2020
+CLIENT IP ADDRESS: 127.0.0.1
+SERVER IP ADDRESS: 127.0.0.1
+=============================================================
+
+
+2020-02-13 00:02:09,717 INFO [com.github.inspektr.audit.support.Slf4jLoggingAuditTrailManager] - Audit trail record BEGIN
+=============================================================
+WHO: audit:unknown
+WHAT: TGT-1-4WrfsKiM36oIU9AjV2rQIFAOh5HeZkPwlgLOXiria5KYiX3Zdy-cas01.example.org
+ACTION: TICKET_GRANTING_TICKET_CREATED
+APPLICATION: CAS
+WHEN: Thu Feb 13 00:02:09 CET 2020
+CLIENT IP ADDRESS: 127.0.0.1
+SERVER IP ADDRESS: 127.0.0.1
+=============================================================
+
+
+2020-02-13 00:03:40,348 INFO [org.jasig.cas.services.DefaultServicesManagerImpl] - Reloading registered services.
+2020-02-13 00:03:40,348 INFO [org.jasig.cas.services.DefaultServicesManagerImpl] - Loaded 1 services.
+2020-02-13 11:39:40,344 INFO [org.jasig.cas.services.DefaultServicesManagerImpl] - Reloading registered services.
+2020-02-13 11:39:40,344 INFO [org.jasig.cas.services.DefaultServicesManagerImpl] - Loaded 1 services.
+2020-02-13 11:41:40,344 INFO [org.jasig.cas.services.DefaultServicesManagerImpl] - Reloading registered services.
+2020-02-13 11:41:40,344 INFO [org.jasig.cas.services.DefaultServicesManagerImpl] - Loaded 1 services.
+2020-02-13 11:43:40,348 INFO [org.jasig.cas.services.DefaultServicesManagerImpl] - Reloading registered services.
+2020-02-13 11:43:40,348 INFO [org.jasig.cas.services.DefaultServicesManagerImpl] - Loaded 1 services.
+2020-02-13 11:45:40,338 INFO [org.jasig.cas.services.DefaultServicesManagerImpl] - Reloading registered services.
+2020-02-13 11:45:40,338 INFO [org.jasig.cas.services.DefaultServicesManagerImpl] - Loaded 1 services.
+2020-02-13 11:45:51,902 INFO [org.jasig.cas.services.DefaultServicesManagerImpl] - Loaded 1 services.
+2020-02-13 11:45:53,745 INFO [org.jasig.cas.util.AutowiringSchedulerFactoryBean] - Starting Quartz Scheduler now
+2020-02-13 11:45:55,448 INFO [org.jasig.cas.util.AutowiringSchedulerFactoryBean] - Shutting down Quartz Scheduler
+2020-02-13 11:46:18,891 INFO [org.jasig.cas.services.DefaultServicesManagerImpl] - Loaded 1 services.
+2020-02-13 11:46:20,688 INFO [org.jasig.cas.util.AutowiringSchedulerFactoryBean] - Starting Quartz Scheduler now
+2020-02-13 11:46:39,221 INFO [org.jasig.cas.ticket.registry.support.DefaultTicketRegistryCleaner] - Beginning ticket cleanup.
+2020-02-13 11:46:39,221 INFO [org.jasig.cas.ticket.registry.support.DefaultTicketRegistryCleaner] - 0 tickets found to be removed.
+2020-02-13 11:46:39,221 INFO [org.jasig.cas.ticket.registry.support.DefaultTicketRegistryCleaner] - Finished ticket cleanup.
+2020-02-13 11:47:02,492 INFO [org.jasig.cas.web.flow.InitialFlowSetupAction] - Setting path for cookies to: /cas/
+2020-02-13 11:47:02,492 INFO [org.jasig.cas.web.flow.InitialFlowSetupAction] - Setting path for cookies to: /cas/
+2020-02-13 11:47:02,601 INFO [com.github.inspektr.audit.support.Slf4jLoggingAuditTrailManager] - Audit trail record BEGIN
+=============================================================
+WHO: audit:unknown
+WHAT: TGT-1-4WrfsKiM36oIU9AjV2rQIFAOh5HeZkPwlgLOXiria5KYiX3Zdy-cas01.example.org
+ACTION: TICKET_GRANTING_TICKET_DESTROYED
+APPLICATION: CAS
+WHEN: Thu Feb 13 11:47:02 CET 2020
+CLIENT IP ADDRESS: 127.0.0.1
+SERVER IP ADDRESS: 127.0.0.1
+=============================================================
+
+
+2020-02-13 11:48:06,179 INFO [org.jasig.cas.authentication.PolicyBasedAuthenticationManager] - SearchModeSearchDatabaseAuthenticationHandler successfully authenticated mils+password
+2020-02-13 11:48:06,179 INFO [org.jasig.cas.authentication.PolicyBasedAuthenticationManager] - Authenticated mils with credentials [mils+password].
+2020-02-13 11:48:06,194 INFO [com.github.inspektr.audit.support.Slf4jLoggingAuditTrailManager] - Audit trail record BEGIN
+=============================================================
+WHO: audit:unknown
+WHAT: supplied credentials: [mils+password]
+ACTION: AUTHENTICATION_SUCCESS
+APPLICATION: CAS
+WHEN: Thu Feb 13 11:48:06 CET 2020
+CLIENT IP ADDRESS: 127.0.0.1
+SERVER IP ADDRESS: 127.0.0.1
+=============================================================
+
+
+2020-02-13 11:48:06,194 INFO [com.github.inspektr.audit.support.Slf4jLoggingAuditTrailManager] - Audit trail record BEGIN
+=============================================================
+WHO: audit:unknown
+WHAT: TGT-1-ZhTiQRcyeTHwIB4Je9cgS2YITyfTsEujRn9MChlvlCireLKKHZ-cas01.example.org
+ACTION: TICKET_GRANTING_TICKET_CREATED
+APPLICATION: CAS
+WHEN: Thu Feb 13 11:48:06 CET 2020
+CLIENT IP ADDRESS: 127.0.0.1
+SERVER IP ADDRESS: 127.0.0.1
+=============================================================
+
+
+2020-02-13 11:48:19,319 INFO [org.jasig.cas.services.DefaultServicesManagerImpl] - Reloading registered services.
+2020-02-13 11:48:19,334 INFO [org.jasig.cas.services.DefaultServicesManagerImpl] - Loaded 1 services.
+2020-02-13 11:50:19,323 INFO [org.jasig.cas.services.DefaultServicesManagerImpl] - Reloading registered services.
+2020-02-13 11:50:19,323 INFO [org.jasig.cas.services.DefaultServicesManagerImpl] - Loaded 1 services.
+2020-02-13 11:52:19,316 INFO [org.jasig.cas.services.DefaultServicesManagerImpl] - Reloading registered services.
+2020-02-13 11:52:19,316 INFO [org.jasig.cas.services.DefaultServicesManagerImpl] - Loaded 1 services.
+2020-02-13 11:54:19,316 INFO [org.jasig.cas.services.DefaultServicesManagerImpl] - Reloading registered services.
+2020-02-13 11:54:19,316 INFO [org.jasig.cas.services.DefaultServicesManagerImpl] - Loaded 1 services.
+2020-02-13 11:56:19,319 INFO [org.jasig.cas.services.DefaultServicesManagerImpl] - Reloading registered services.
+2020-02-13 11:56:19,319 INFO [org.jasig.cas.services.DefaultServicesManagerImpl] - Loaded 1 services.
+2020-02-13 11:58:19,328 INFO [org.jasig.cas.services.DefaultServicesManagerImpl] - Reloading registered services.
+2020-02-13 11:58:19,328 INFO [org.jasig.cas.services.DefaultServicesManagerImpl] - Loaded 1 services.
+2020-02-13 12:00:19,319 INFO [org.jasig.cas.services.DefaultServicesManagerImpl] - Reloading registered services.
+2020-02-13 12:00:19,319 INFO [org.jasig.cas.services.DefaultServicesManagerImpl] - Loaded 1 services.
+2020-02-13 12:02:19,326 INFO [org.jasig.cas.services.DefaultServicesManagerImpl] - Reloading registered services.
+2020-02-13 12:02:19,326 INFO [org.jasig.cas.services.DefaultServicesManagerImpl] - Loaded 1 services.
+2020-02-13 12:04:19,317 INFO [org.jasig.cas.services.DefaultServicesManagerImpl] - Reloading registered services.
+2020-02-13 12:04:19,317 INFO [org.jasig.cas.services.DefaultServicesManagerImpl] - Loaded 1 services.
+2020-02-13 12:06:19,327 INFO [org.jasig.cas.services.DefaultServicesManagerImpl] - Reloading registered services.
+2020-02-13 12:06:19,327 INFO [org.jasig.cas.services.DefaultServicesManagerImpl] - Loaded 1 services.
+2020-02-13 12:08:19,317 INFO [org.jasig.cas.services.DefaultServicesManagerImpl] - Reloading registered services.
+2020-02-13 12:08:19,317 INFO [org.jasig.cas.services.DefaultServicesManagerImpl] - Loaded 1 services.
+2020-02-13 12:10:19,321 INFO [org.jasig.cas.services.DefaultServicesManagerImpl] - Reloading registered services.
+2020-02-13 12:10:19,321 INFO [org.jasig.cas.services.DefaultServicesManagerImpl] - Loaded 1 services.
+2020-02-13 12:12:19,322 INFO [org.jasig.cas.services.DefaultServicesManagerImpl] - Reloading registered services.
+2020-02-13 12:12:19,322 INFO [org.jasig.cas.services.DefaultServicesManagerImpl] - Loaded 1 services.
+2020-02-13 12:14:19,319 INFO [org.jasig.cas.services.DefaultServicesManagerImpl] - Reloading registered services.
+2020-02-13 12:14:19,319 INFO [org.jasig.cas.services.DefaultServicesManagerImpl] - Loaded 1 services.
+2020-02-13 12:16:19,323 INFO [org.jasig.cas.services.DefaultServicesManagerImpl] - Reloading registered services.
+2020-02-13 12:16:19,323 INFO [org.jasig.cas.services.DefaultServicesManagerImpl] - Loaded 1 services.
+2020-02-13 12:18:19,321 INFO [org.jasig.cas.services.DefaultServicesManagerImpl] - Reloading registered services.
+2020-02-13 12:18:19,321 INFO [org.jasig.cas.services.DefaultServicesManagerImpl] - Loaded 1 services.
+2020-02-13 12:20:19,321 INFO [org.jasig.cas.services.DefaultServicesManagerImpl] - Reloading registered services.
+2020-02-13 12:20:19,321 INFO [org.jasig.cas.services.DefaultServicesManagerImpl] - Loaded 1 services.
+2020-02-13 12:22:19,325 INFO [org.jasig.cas.services.DefaultServicesManagerImpl] - Reloading registered services.
+2020-02-13 12:22:19,325 INFO [org.jasig.cas.services.DefaultServicesManagerImpl] - Loaded 1 services.
+2020-02-13 12:24:19,321 INFO [org.jasig.cas.services.DefaultServicesManagerImpl] - Reloading registered services.
+2020-02-13 12:24:19,321 INFO [org.jasig.cas.services.DefaultServicesManagerImpl] - Loaded 1 services.
+2020-02-13 12:26:19,317 INFO [org.jasig.cas.services.DefaultServicesManagerImpl] - Reloading registered services.
+2020-02-13 12:26:19,317 INFO [org.jasig.cas.services.DefaultServicesManagerImpl] - Loaded 1 services.
+2020-02-13 12:28:19,314 INFO [org.jasig.cas.services.DefaultServicesManagerImpl] - Reloading registered services.
+2020-02-13 12:28:19,314 INFO [org.jasig.cas.services.DefaultServicesManagerImpl] - Loaded 1 services.
+2020-02-13 12:30:19,325 INFO [org.jasig.cas.services.DefaultServicesManagerImpl] - Reloading registered services.
+2020-02-13 12:30:19,325 INFO [org.jasig.cas.services.DefaultServicesManagerImpl] - Loaded 1 services.
+2020-02-13 12:30:50,369 INFO [com.github.inspektr.audit.support.Slf4jLoggingAuditTrailManager] - Audit trail record BEGIN
+=============================================================
+WHO: audit:unknown
+WHAT: TGT-1-ZhTiQRcyeTHwIB4Je9cgS2YITyfTsEujRn9MChlvlCireLKKHZ-cas01.example.org
+ACTION: TICKET_GRANTING_TICKET_DESTROYED
+APPLICATION: CAS
+WHEN: Thu Feb 13 12:30:50 CET 2020
+CLIENT IP ADDRESS: 127.0.0.1
+SERVER IP ADDRESS: 127.0.0.1
+=============================================================
+
+
+2020-02-13 12:32:19,315 INFO [org.jasig.cas.services.DefaultServicesManagerImpl] - Reloading registered services.
+2020-02-13 12:32:19,315 INFO [org.jasig.cas.services.DefaultServicesManagerImpl] - Loaded 1 services.
+2020-02-13 12:34:19,314 INFO [org.jasig.cas.services.DefaultServicesManagerImpl] - Reloading registered services.
+2020-02-13 12:34:19,314 INFO [org.jasig.cas.services.DefaultServicesManagerImpl] - Loaded 1 services.
+2020-02-13 12:36:19,333 INFO [org.jasig.cas.services.DefaultServicesManagerImpl] - Reloading registered services.
+2020-02-13 12:36:19,333 INFO [org.jasig.cas.services.DefaultServicesManagerImpl] - Loaded 1 services.
+2020-02-13 12:38:19,316 INFO [org.jasig.cas.services.DefaultServicesManagerImpl] - Reloading registered services.
+2020-02-13 12:38:19,316 INFO [org.jasig.cas.services.DefaultServicesManagerImpl] - Loaded 1 services.
+2020-02-13 12:40:19,325 INFO [org.jasig.cas.services.DefaultServicesManagerImpl] - Reloading registered services.
+2020-02-13 12:40:19,325 INFO [org.jasig.cas.services.DefaultServicesManagerImpl] - Loaded 1 services.
+2020-02-13 12:42:19,313 INFO [org.jasig.cas.services.DefaultServicesManagerImpl] - Reloading registered services.
+2020-02-13 12:42:19,314 INFO [org.jasig.cas.services.DefaultServicesManagerImpl] - Loaded 1 services.
+2020-02-13 12:44:19,324 INFO [org.jasig.cas.services.DefaultServicesManagerImpl] - Reloading registered services.
+2020-02-13 12:44:19,324 INFO [org.jasig.cas.services.DefaultServicesManagerImpl] - Loaded 1 services.
+2020-02-13 12:46:19,316 INFO [org.jasig.cas.services.DefaultServicesManagerImpl] - Reloading registered services.
+2020-02-13 12:46:19,316 INFO [org.jasig.cas.services.DefaultServicesManagerImpl] - Loaded 1 services.
+2020-02-13 12:48:19,314 INFO [org.jasig.cas.services.DefaultServicesManagerImpl] - Reloading registered services.
+2020-02-13 12:48:19,314 INFO [org.jasig.cas.services.DefaultServicesManagerImpl] - Loaded 1 services.
+2020-02-13 12:50:19,313 INFO [org.jasig.cas.services.DefaultServicesManagerImpl] - Reloading registered services.
+2020-02-13 12:50:19,313 INFO [org.jasig.cas.services.DefaultServicesManagerImpl] - Loaded 1 services.
+2020-02-13 12:52:19,314 INFO [org.jasig.cas.services.DefaultServicesManagerImpl] - Reloading registered services.
+2020-02-13 12:52:19,314 INFO [org.jasig.cas.services.DefaultServicesManagerImpl] - Loaded 1 services.
+2020-02-13 12:54:19,320 INFO [org.jasig.cas.services.DefaultServicesManagerImpl] - Reloading registered services.
+2020-02-13 12:54:19,320 INFO [org.jasig.cas.services.DefaultServicesManagerImpl] - Loaded 1 services.
+2020-02-13 12:55:28,695 INFO [org.jasig.cas.services.DefaultServicesManagerImpl] - Loaded 1 services.
+2020-02-13 12:55:30,383 INFO [org.jasig.cas.util.AutowiringSchedulerFactoryBean] - Starting Quartz Scheduler now
+2020-02-13 12:55:48,993 INFO [org.jasig.cas.ticket.registry.support.DefaultTicketRegistryCleaner] - Beginning ticket cleanup.
+2020-02-13 12:55:49,009 INFO [org.jasig.cas.ticket.registry.support.DefaultTicketRegistryCleaner] - 0 tickets found to be removed.
+2020-02-13 12:55:49,009 INFO [org.jasig.cas.ticket.registry.support.DefaultTicketRegistryCleaner] - Finished ticket cleanup.
+2020-02-13 12:56:38,929 INFO [org.jasig.cas.web.flow.InitialFlowSetupAction] - Setting path for cookies to: /cas/
+2020-02-13 12:56:38,929 INFO [org.jasig.cas.web.flow.InitialFlowSetupAction] - Setting path for cookies to: /cas/
+2020-02-13 12:57:29,072 INFO [org.jasig.cas.services.DefaultServicesManagerImpl] - Reloading registered services.
+2020-02-13 12:57:29,072 INFO [org.jasig.cas.services.DefaultServicesManagerImpl] - Loaded 1 services.
+2020-02-13 12:58:23,699 INFO [org.jasig.cas.authentication.PolicyBasedAuthenticationManager] - SearchModeSearchDatabaseAuthenticationHandler successfully authenticated mils+password
+2020-02-13 12:58:23,714 INFO [org.jasig.cas.authentication.PolicyBasedAuthenticationManager] - Authenticated mils with credentials [mils+password].
+2020-02-13 12:58:23,714 INFO [com.github.inspektr.audit.support.Slf4jLoggingAuditTrailManager] - Audit trail record BEGIN
+=============================================================
+WHO: audit:unknown
+WHAT: supplied credentials: [mils+password]
+ACTION: AUTHENTICATION_SUCCESS
+APPLICATION: CAS
+WHEN: Thu Feb 13 12:58:23 CET 2020
+CLIENT IP ADDRESS: 0:0:0:0:0:0:0:1
+SERVER IP ADDRESS: 0:0:0:0:0:0:0:1
+=============================================================
+
+
+2020-02-13 12:58:23,714 INFO [com.github.inspektr.audit.support.Slf4jLoggingAuditTrailManager] - Audit trail record BEGIN
+=============================================================
+WHO: audit:unknown
+WHAT: TGT-1-1QL0XH7qBLsm4JzVPOV06ElGrK3qgkgd0L6UpgYwg9WG4EJ3Hx-cas01.example.org
+ACTION: TICKET_GRANTING_TICKET_CREATED
+APPLICATION: CAS
+WHEN: Thu Feb 13 12:58:23 CET 2020
+CLIENT IP ADDRESS: 0:0:0:0:0:0:0:1
+SERVER IP ADDRESS: 0:0:0:0:0:0:0:1
+=============================================================
+
+
+2020-02-13 12:58:32,532 INFO [com.github.inspektr.audit.support.Slf4jLoggingAuditTrailManager] - Audit trail record BEGIN
+=============================================================
+WHO: audit:unknown
+WHAT: TGT-1-1QL0XH7qBLsm4JzVPOV06ElGrK3qgkgd0L6UpgYwg9WG4EJ3Hx-cas01.example.org
+ACTION: TICKET_GRANTING_TICKET_DESTROYED
+APPLICATION: CAS
+WHEN: Thu Feb 13 12:58:32 CET 2020
+CLIENT IP ADDRESS: 0:0:0:0:0:0:0:1
+SERVER IP ADDRESS: 0:0:0:0:0:0:0:1
+=============================================================
+
+
+2020-02-13 12:59:29,064 INFO [org.jasig.cas.services.DefaultServicesManagerImpl] - Reloading registered services.
+2020-02-13 12:59:29,064 INFO [org.jasig.cas.services.DefaultServicesManagerImpl] - Loaded 1 services.
+2020-02-13 12:59:42,293 INFO [org.jasig.cas.authentication.PolicyBasedAuthenticationManager] - SearchModeSearchDatabaseAuthenticationHandler failed authenticating gasghaio+password
+2020-02-13 12:59:42,293 INFO [com.github.inspektr.audit.support.Slf4jLoggingAuditTrailManager] - Audit trail record BEGIN
+=============================================================
+WHO: audit:unknown
+WHAT: supplied credentials: [gasghaio+password]
+ACTION: AUTHENTICATION_FAILED
+APPLICATION: CAS
+WHEN: Thu Feb 13 12:59:42 CET 2020
+CLIENT IP ADDRESS: 0:0:0:0:0:0:0:1
+SERVER IP ADDRESS: 0:0:0:0:0:0:0:1
+=============================================================
+
+
+2020-02-13 12:59:42,293 INFO [com.github.inspektr.audit.support.Slf4jLoggingAuditTrailManager] - Audit trail record BEGIN
+=============================================================
+WHO: audit:unknown
+WHAT: 1 errors, 0 successes
+ACTION: TICKET_GRANTING_TICKET_NOT_CREATED
+APPLICATION: CAS
+WHEN: Thu Feb 13 12:59:42 CET 2020
+CLIENT IP ADDRESS: 0:0:0:0:0:0:0:1
+SERVER IP ADDRESS: 0:0:0:0:0:0:0:1
+=============================================================
+
+
+2020-02-13 12:59:42,763 INFO [org.jasig.cas.authentication.PolicyBasedAuthenticationManager] - SearchModeSearchDatabaseAuthenticationHandler failed authenticating gasghaio+password
+2020-02-13 12:59:42,763 INFO [com.github.inspektr.audit.support.Slf4jLoggingAuditTrailManager] - Audit trail record BEGIN
+=============================================================
+WHO: audit:unknown
+WHAT: supplied credentials: [gasghaio+password]
+ACTION: AUTHENTICATION_FAILED
+APPLICATION: CAS
+WHEN: Thu Feb 13 12:59:42 CET 2020
+CLIENT IP ADDRESS: 0:0:0:0:0:0:0:1
+SERVER IP ADDRESS: 0:0:0:0:0:0:0:1
+=============================================================
+
+
+2020-02-13 12:59:42,763 INFO [com.github.inspektr.audit.support.Slf4jLoggingAuditTrailManager] - Audit trail record BEGIN
+=============================================================
+WHO: audit:unknown
+WHAT: 1 errors, 0 successes
+ACTION: TICKET_GRANTING_TICKET_NOT_CREATED
+APPLICATION: CAS
+WHEN: Thu Feb 13 12:59:42 CET 2020
+CLIENT IP ADDRESS: 0:0:0:0:0:0:0:1
+SERVER IP ADDRESS: 0:0:0:0:0:0:0:1
+=============================================================
+
+
+2020-02-13 13:01:29,064 INFO [org.jasig.cas.services.DefaultServicesManagerImpl] - Reloading registered services.
+2020-02-13 13:01:29,064 INFO [org.jasig.cas.services.DefaultServicesManagerImpl] - Loaded 1 services.
+2020-02-13 13:03:29,064 INFO [org.jasig.cas.services.DefaultServicesManagerImpl] - Reloading registered services.
+2020-02-13 13:03:29,064 INFO [org.jasig.cas.services.DefaultServicesManagerImpl] - Loaded 1 services.
+2020-02-13 13:05:29,059 INFO [org.jasig.cas.services.DefaultServicesManagerImpl] - Reloading registered services.
+2020-02-13 13:05:29,059 INFO [org.jasig.cas.services.DefaultServicesManagerImpl] - Loaded 1 services.
+2020-02-13 13:07:29,071 INFO [org.jasig.cas.services.DefaultServicesManagerImpl] - Reloading registered services.
+2020-02-13 13:07:29,071 INFO [org.jasig.cas.services.DefaultServicesManagerImpl] - Loaded 1 services.
+2020-02-13 13:09:29,052 INFO [org.jasig.cas.services.DefaultServicesManagerImpl] - Reloading registered services.
+2020-02-13 13:09:29,052 INFO [org.jasig.cas.services.DefaultServicesManagerImpl] - Loaded 1 services.
+2020-02-13 13:11:29,056 INFO [org.jasig.cas.services.DefaultServicesManagerImpl] - Reloading registered services.
+2020-02-13 13:11:29,056 INFO [org.jasig.cas.services.DefaultServicesManagerImpl] - Loaded 1 services.
+2020-02-13 13:13:29,062 INFO [org.jasig.cas.services.DefaultServicesManagerImpl] - Reloading registered services.
+2020-02-13 13:13:29,062 INFO [org.jasig.cas.services.DefaultServicesManagerImpl] - Loaded 1 services.
+2020-02-13 13:15:29,058 INFO [org.jasig.cas.services.DefaultServicesManagerImpl] - Reloading registered services.
+2020-02-13 13:15:29,058 INFO [org.jasig.cas.services.DefaultServicesManagerImpl] - Loaded 1 services.
+2020-02-13 13:17:29,063 INFO [org.jasig.cas.services.DefaultServicesManagerImpl] - Reloading registered services.
+2020-02-13 13:17:29,063 INFO [org.jasig.cas.services.DefaultServicesManagerImpl] - Loaded 1 services.
+2020-02-13 13:19:29,063 INFO [org.jasig.cas.services.DefaultServicesManagerImpl] - Reloading registered services.
+2020-02-13 13:19:29,063 INFO [org.jasig.cas.services.DefaultServicesManagerImpl] - Loaded 1 services.
+2020-02-13 13:21:29,056 INFO [org.jasig.cas.services.DefaultServicesManagerImpl] - Reloading registered services.
+2020-02-13 13:21:29,056 INFO [org.jasig.cas.services.DefaultServicesManagerImpl] - Loaded 1 services.
+2020-02-13 13:23:29,065 INFO [org.jasig.cas.services.DefaultServicesManagerImpl] - Reloading registered services.
+2020-02-13 13:23:29,065 INFO [org.jasig.cas.services.DefaultServicesManagerImpl] - Loaded 1 services.
+2020-02-13 13:25:29,059 INFO [org.jasig.cas.services.DefaultServicesManagerImpl] - Reloading registered services.
+2020-02-13 13:25:29,059 INFO [org.jasig.cas.services.DefaultServicesManagerImpl] - Loaded 1 services.
+2020-02-13 13:27:29,060 INFO [org.jasig.cas.services.DefaultServicesManagerImpl] - Reloading registered services.
+2020-02-13 13:27:29,060 INFO [org.jasig.cas.services.DefaultServicesManagerImpl] - Loaded 1 services.
+2020-02-13 16:51:29,063 INFO [org.jasig.cas.services.DefaultServicesManagerImpl] - Reloading registered services.
+2020-02-13 16:51:29,063 INFO [org.jasig.cas.services.DefaultServicesManagerImpl] - Loaded 1 services.
+2020-02-13 16:53:29,077 INFO [org.jasig.cas.services.DefaultServicesManagerImpl] - Reloading registered services.
+2020-02-13 16:53:29,077 INFO [org.jasig.cas.services.DefaultServicesManagerImpl] - Loaded 1 services.
+2020-02-13 21:54:12,959 INFO [org.jasig.cas.services.DefaultServicesManagerImpl] - Loaded 1 services.
+2020-02-13 21:54:14,653 INFO [org.jasig.cas.util.AutowiringSchedulerFactoryBean] - Starting Quartz Scheduler now
+2020-02-13 21:54:33,315 INFO [org.jasig.cas.ticket.registry.support.DefaultTicketRegistryCleaner] - Beginning ticket cleanup.
+2020-02-13 21:54:33,332 INFO [org.jasig.cas.ticket.registry.support.DefaultTicketRegistryCleaner] - 0 tickets found to be removed.
+2020-02-13 21:54:33,332 INFO [org.jasig.cas.ticket.registry.support.DefaultTicketRegistryCleaner] - Finished ticket cleanup.
+2020-02-13 21:56:13,398 INFO [org.jasig.cas.services.DefaultServicesManagerImpl] - Reloading registered services.
+2020-02-13 21:59:06,757 INFO [org.jasig.cas.services.DefaultServicesManagerImpl] - Loaded 1 services.
+2020-02-13 21:59:08,752 INFO [org.jasig.cas.util.AutowiringSchedulerFactoryBean] - Starting Quartz Scheduler now
+2020-02-13 21:59:27,066 INFO [org.jasig.cas.ticket.registry.support.DefaultTicketRegistryCleaner] - Beginning ticket cleanup.
+2020-02-13 21:59:27,066 INFO [org.jasig.cas.ticket.registry.support.DefaultTicketRegistryCleaner] - 0 tickets found to be removed.
+2020-02-13 21:59:27,066 INFO [org.jasig.cas.ticket.registry.support.DefaultTicketRegistryCleaner] - Finished ticket cleanup.
+2020-02-13 22:01:07,188 INFO [org.jasig.cas.services.DefaultServicesManagerImpl] - Reloading registered services.
+2020-02-13 22:01:07,190 INFO [org.jasig.cas.services.DefaultServicesManagerImpl] - Loaded 1 services.
+2020-02-13 22:03:07,142 INFO [org.jasig.cas.services.DefaultServicesManagerImpl] - Reloading registered services.
+2020-02-13 22:03:07,142 INFO [org.jasig.cas.services.DefaultServicesManagerImpl] - Loaded 1 services.
+2020-02-13 22:05:07,137 INFO [org.jasig.cas.services.DefaultServicesManagerImpl] - Reloading registered services.
+2020-02-13 22:05:07,139 INFO [org.jasig.cas.services.DefaultServicesManagerImpl] - Loaded 1 services.
+2020-02-13 22:07:07,138 INFO [org.jasig.cas.services.DefaultServicesManagerImpl] - Reloading registered services.
+2020-02-13 22:07:07,138 INFO [org.jasig.cas.services.DefaultServicesManagerImpl] - Loaded 1 services.
+2020-02-13 22:09:07,145 INFO [org.jasig.cas.services.DefaultServicesManagerImpl] - Reloading registered services.
+2020-02-13 22:09:07,145 INFO [org.jasig.cas.services.DefaultServicesManagerImpl] - Loaded 1 services.
+2020-02-13 22:38:53,723 INFO [org.jasig.cas.services.DefaultServicesManagerImpl] - Loaded 1 services.
+2020-02-13 22:38:55,476 INFO [org.jasig.cas.util.AutowiringSchedulerFactoryBean] - Starting Quartz Scheduler now
+2020-02-13 22:39:14,618 INFO [org.jasig.cas.services.DefaultServicesManagerImpl] - Loaded 1 services.
+2020-02-13 22:39:16,402 INFO [org.jasig.cas.util.AutowiringSchedulerFactoryBean] - Starting Quartz Scheduler now
+2020-02-13 22:39:34,905 INFO [org.jasig.cas.ticket.registry.support.DefaultTicketRegistryCleaner] - Beginning ticket cleanup.
+2020-02-13 22:39:34,914 INFO [org.jasig.cas.ticket.registry.support.DefaultTicketRegistryCleaner] - 0 tickets found to be removed.
+2020-02-13 22:39:34,914 INFO [org.jasig.cas.ticket.registry.support.DefaultTicketRegistryCleaner] - Finished ticket cleanup.
+2020-02-13 22:41:15,043 INFO [org.jasig.cas.services.DefaultServicesManagerImpl] - Reloading registered services.
+2020-02-13 22:41:15,044 INFO [org.jasig.cas.services.DefaultServicesManagerImpl] - Loaded 1 services.
+2020-02-13 22:43:14,980 INFO [org.jasig.cas.services.DefaultServicesManagerImpl] - Reloading registered services.
+2020-02-13 22:43:14,981 INFO [org.jasig.cas.services.DefaultServicesManagerImpl] - Loaded 1 services.
+2020-02-13 22:45:14,993 INFO [org.jasig.cas.services.DefaultServicesManagerImpl] - Reloading registered services.
+2020-02-13 22:45:14,993 INFO [org.jasig.cas.services.DefaultServicesManagerImpl] - Loaded 1 services.
+2020-02-13 22:47:14,979 INFO [org.jasig.cas.services.DefaultServicesManagerImpl] - Reloading registered services.
+2020-02-13 22:47:14,980 INFO [org.jasig.cas.services.DefaultServicesManagerImpl] - Loaded 1 services.
+2020-02-13 22:55:22,777 INFO [org.jasig.cas.services.DefaultServicesManagerImpl] - Loaded 1 services.
+2020-02-13 22:55:24,435 INFO [org.jasig.cas.util.AutowiringSchedulerFactoryBean] - Starting Quartz Scheduler now
+2020-02-13 22:55:43,130 INFO [org.jasig.cas.ticket.registry.support.DefaultTicketRegistryCleaner] - Beginning ticket cleanup.
+2020-02-13 22:55:43,145 INFO [org.jasig.cas.ticket.registry.support.DefaultTicketRegistryCleaner] - 0 tickets found to be removed.
+2020-02-13 22:55:43,145 INFO [org.jasig.cas.ticket.registry.support.DefaultTicketRegistryCleaner] - Finished ticket cleanup.
+2020-02-13 22:57:23,241 INFO [org.jasig.cas.services.DefaultServicesManagerImpl] - Reloading registered services.
+2020-02-13 22:57:23,241 INFO [org.jasig.cas.services.DefaultServicesManagerImpl] - Loaded 1 services.
+2020-02-13 22:58:50,271 INFO [org.jasig.cas.services.DefaultServicesManagerImpl] - Loaded 1 services.
+2020-02-13 22:58:52,077 INFO [org.jasig.cas.util.AutowiringSchedulerFactoryBean] - Starting Quartz Scheduler now
+2020-02-13 22:59:10,593 INFO [org.jasig.cas.ticket.registry.support.DefaultTicketRegistryCleaner] - Beginning ticket cleanup.
+2020-02-13 22:59:10,607 INFO [org.jasig.cas.ticket.registry.support.DefaultTicketRegistryCleaner] - 0 tickets found to be removed.
+2020-02-13 22:59:10,608 INFO [org.jasig.cas.ticket.registry.support.DefaultTicketRegistryCleaner] - Finished ticket cleanup.
+2020-02-13 23:00:50,763 INFO [org.jasig.cas.services.DefaultServicesManagerImpl] - Reloading registered services.
+2020-02-13 23:00:50,763 INFO [org.jasig.cas.services.DefaultServicesManagerImpl] - Loaded 1 services.
+2020-02-13 23:31:32,608 INFO [org.jasig.cas.services.DefaultServicesManagerImpl] - Loaded 1 services.
+2020-02-13 23:31:34,370 INFO [org.jasig.cas.util.AutowiringSchedulerFactoryBean] - Starting Quartz Scheduler now
+2020-02-13 23:31:52,986 INFO [org.jasig.cas.ticket.registry.support.DefaultTicketRegistryCleaner] - Beginning ticket cleanup.
+2020-02-13 23:31:52,996 INFO [org.jasig.cas.ticket.registry.support.DefaultTicketRegistryCleaner] - 0 tickets found to be removed.
+2020-02-13 23:31:52,996 INFO [org.jasig.cas.ticket.registry.support.DefaultTicketRegistryCleaner] - Finished ticket cleanup.
+2020-02-13 23:33:33,070 INFO [org.jasig.cas.services.DefaultServicesManagerImpl] - Reloading registered services.
+2020-02-13 23:33:33,070 INFO [org.jasig.cas.services.DefaultServicesManagerImpl] - Loaded 1 services.
+2020-02-14 19:00:11,569 INFO [org.jasig.cas.services.DefaultServicesManagerImpl] - Loaded 1 services.
+2020-02-14 19:00:13,250 INFO [org.jasig.cas.util.AutowiringSchedulerFactoryBean] - Starting Quartz Scheduler now
+2020-02-14 19:00:31,891 INFO [org.jasig.cas.ticket.registry.support.DefaultTicketRegistryCleaner] - Beginning ticket cleanup.
+2020-02-14 19:00:31,913 INFO [org.jasig.cas.ticket.registry.support.DefaultTicketRegistryCleaner] - 0 tickets found to be removed.
+2020-02-14 19:00:31,913 INFO [org.jasig.cas.ticket.registry.support.DefaultTicketRegistryCleaner] - Finished ticket cleanup.
+2020-02-14 19:00:58,967 INFO [org.jasig.cas.web.flow.InitialFlowSetupAction] - Setting path for cookies to: /cas/
+2020-02-14 19:00:58,967 INFO [org.jasig.cas.web.flow.InitialFlowSetupAction] - Setting path for cookies to: /cas/
+2020-02-14 19:02:12,016 INFO [org.jasig.cas.services.DefaultServicesManagerImpl] - Reloading registered services.
+2020-02-14 19:02:12,187 INFO [org.jasig.cas.services.DefaultServicesManagerImpl] - Loaded 1 services.
+2020-02-14 19:04:12,005 INFO [org.jasig.cas.services.DefaultServicesManagerImpl] - Reloading registered services.
+2020-02-14 19:04:12,005 INFO [org.jasig.cas.services.DefaultServicesManagerImpl] - Loaded 1 services.
+2020-02-14 19:12:00,323 INFO [org.jasig.cas.services.DefaultServicesManagerImpl] - Loaded 1 services.
+2020-02-14 19:12:02,027 INFO [org.jasig.cas.util.AutowiringSchedulerFactoryBean] - Starting Quartz Scheduler now
+2020-02-14 19:12:20,671 INFO [org.jasig.cas.ticket.registry.support.DefaultTicketRegistryCleaner] - Beginning ticket cleanup.
+2020-02-14 19:12:20,682 INFO [org.jasig.cas.ticket.registry.support.DefaultTicketRegistryCleaner] - 0 tickets found to be removed.
+2020-02-14 19:12:20,682 INFO [org.jasig.cas.ticket.registry.support.DefaultTicketRegistryCleaner] - Finished ticket cleanup.
+2020-02-14 19:12:58,811 INFO [org.jasig.cas.web.flow.InitialFlowSetupAction] - Setting path for cookies to: /cas/
+2020-02-14 19:12:58,811 INFO [org.jasig.cas.web.flow.InitialFlowSetupAction] - Setting path for cookies to: /cas/
+2020-02-14 19:22:26,877 INFO [org.jasig.cas.services.DefaultServicesManagerImpl] - Loaded 1 services.
+2020-02-14 19:22:28,347 INFO [org.jasig.cas.util.AutowiringSchedulerFactoryBean] - Starting Quartz Scheduler now
+2020-02-14 19:22:37,807 INFO [org.jasig.cas.web.flow.InitialFlowSetupAction] - Setting path for cookies to: /cas/
+2020-02-14 19:22:37,807 INFO [org.jasig.cas.web.flow.InitialFlowSetupAction] - Setting path for cookies to: /cas/
+2020-02-14 19:22:47,182 INFO [org.jasig.cas.ticket.registry.support.DefaultTicketRegistryCleaner] - Beginning ticket cleanup.
+2020-02-14 19:22:47,187 INFO [org.jasig.cas.ticket.registry.support.DefaultTicketRegistryCleaner] - 0 tickets found to be removed.
+2020-02-14 19:22:47,187 INFO [org.jasig.cas.ticket.registry.support.DefaultTicketRegistryCleaner] - Finished ticket cleanup.
+2020-02-25 18:36:23,914 INFO [org.jasig.cas.services.DefaultServicesManagerImpl] - Loaded 1 services.
+2020-02-25 18:36:29,964 INFO [org.jasig.cas.util.AutowiringSchedulerFactoryBean] - Starting Quartz Scheduler now
+2020-02-25 18:36:45,077 INFO [org.jasig.cas.ticket.registry.support.DefaultTicketRegistryCleaner] - Beginning ticket cleanup.
+2020-02-25 18:36:45,098 INFO [org.jasig.cas.ticket.registry.support.DefaultTicketRegistryCleaner] - 0 tickets found to be removed.
+2020-02-25 18:36:45,104 INFO [org.jasig.cas.ticket.registry.support.DefaultTicketRegistryCleaner] - Finished ticket cleanup.
+2020-02-25 18:44:10,811 INFO [org.jasig.cas.services.DefaultServicesManagerImpl] - Loaded 1 services.
+2020-02-25 18:44:16,377 INFO [org.jasig.cas.util.AutowiringSchedulerFactoryBean] - Starting Quartz Scheduler now
+2020-02-25 18:44:31,769 INFO [org.jasig.cas.ticket.registry.support.DefaultTicketRegistryCleaner] - Beginning ticket cleanup.
+2020-02-25 18:44:31,807 INFO [org.jasig.cas.ticket.registry.support.DefaultTicketRegistryCleaner] - 0 tickets found to be removed.
+2020-02-25 18:44:31,807 INFO [org.jasig.cas.ticket.registry.support.DefaultTicketRegistryCleaner] - Finished ticket cleanup.
+2020-02-25 18:47:03,026 INFO [org.jasig.cas.services.DefaultServicesManagerImpl] - Loaded 1 services.
+2020-02-25 18:47:08,229 INFO [org.jasig.cas.util.AutowiringSchedulerFactoryBean] - Starting Quartz Scheduler now
+2020-02-25 18:47:24,006 INFO [org.jasig.cas.ticket.registry.support.DefaultTicketRegistryCleaner] - Beginning ticket cleanup.
+2020-02-25 18:47:24,022 INFO [org.jasig.cas.ticket.registry.support.DefaultTicketRegistryCleaner] - 0 tickets found to be removed.
+2020-02-25 18:47:24,022 INFO [org.jasig.cas.ticket.registry.support.DefaultTicketRegistryCleaner] - Finished ticket cleanup.
+2020-02-25 18:49:04,328 INFO [org.jasig.cas.services.DefaultServicesManagerImpl] - Reloading registered services.
+2020-02-25 18:49:04,328 INFO [org.jasig.cas.services.DefaultServicesManagerImpl] - Loaded 1 services.
+2020-02-25 18:51:04,232 INFO [org.jasig.cas.services.DefaultServicesManagerImpl] - Reloading registered services.
+2020-02-25 18:51:04,232 INFO [org.jasig.cas.services.DefaultServicesManagerImpl] - Loaded 1 services.
+2020-02-25 18:53:04,222 INFO [org.jasig.cas.services.DefaultServicesManagerImpl] - Reloading registered services.
+2020-02-25 18:53:04,222 INFO [org.jasig.cas.services.DefaultServicesManagerImpl] - Loaded 1 services.
+2020-02-25 18:55:04,244 INFO [org.jasig.cas.services.DefaultServicesManagerImpl] - Reloading registered services.
+2020-02-25 18:55:04,284 INFO [org.jasig.cas.services.DefaultServicesManagerImpl] - Loaded 1 services.
+2020-02-25 18:57:04,228 INFO [org.jasig.cas.services.DefaultServicesManagerImpl] - Reloading registered services.
+2020-02-25 18:57:04,228 INFO [org.jasig.cas.services.DefaultServicesManagerImpl] - Loaded 1 services.
+2020-02-25 18:59:04,247 INFO [org.jasig.cas.services.DefaultServicesManagerImpl] - Reloading registered services.
+2020-02-25 18:59:04,312 INFO [org.jasig.cas.services.DefaultServicesManagerImpl] - Loaded 1 services.
+2020-02-25 19:01:04,235 INFO [org.jasig.cas.services.DefaultServicesManagerImpl] - Reloading registered services.
+2020-02-25 19:01:04,236 INFO [org.jasig.cas.services.DefaultServicesManagerImpl] - Loaded 1 services.
+2020-02-25 19:03:04,250 INFO [org.jasig.cas.services.DefaultServicesManagerImpl] - Reloading registered services.
+2020-02-25 19:03:04,260 INFO [org.jasig.cas.services.DefaultServicesManagerImpl] - Loaded 1 services.
+2020-02-25 19:05:04,234 INFO [org.jasig.cas.services.DefaultServicesManagerImpl] - Reloading registered services.
+2020-02-25 19:05:04,254 INFO [org.jasig.cas.services.DefaultServicesManagerImpl] - Loaded 1 services.
+2020-02-25 19:07:04,233 INFO [org.jasig.cas.services.DefaultServicesManagerImpl] - Reloading registered services.
+2020-02-25 19:07:04,239 INFO [org.jasig.cas.services.DefaultServicesManagerImpl] - Loaded 1 services.
+2020-02-25 19:09:04,232 INFO [org.jasig.cas.services.DefaultServicesManagerImpl] - Reloading registered services.
+2020-02-25 19:09:04,232 INFO [org.jasig.cas.services.DefaultServicesManagerImpl] - Loaded 1 services.
+2020-02-25 19:11:04,241 INFO [org.jasig.cas.services.DefaultServicesManagerImpl] - Reloading registered services.
+2020-02-25 19:11:04,241 INFO [org.jasig.cas.services.DefaultServicesManagerImpl] - Loaded 1 services.
+2020-02-25 19:13:04,230 INFO [org.jasig.cas.services.DefaultServicesManagerImpl] - Reloading registered services.
+2020-02-25 19:13:04,230 INFO [org.jasig.cas.services.DefaultServicesManagerImpl] - Loaded 1 services.
+2020-02-25 19:15:04,239 INFO [org.jasig.cas.services.DefaultServicesManagerImpl] - Reloading registered services.
+2020-02-25 19:15:04,244 INFO [org.jasig.cas.services.DefaultServicesManagerImpl] - Loaded 1 services.
+2020-02-25 19:17:04,238 INFO [org.jasig.cas.services.DefaultServicesManagerImpl] - Reloading registered services.
+2020-02-25 19:17:04,238 INFO [org.jasig.cas.services.DefaultServicesManagerImpl] - Loaded 1 services.
+2020-02-25 19:19:04,237 INFO [org.jasig.cas.services.DefaultServicesManagerImpl] - Reloading registered services.
+2020-02-25 19:19:04,237 INFO [org.jasig.cas.services.DefaultServicesManagerImpl] - Loaded 1 services.
+2020-02-25 19:21:04,235 INFO [org.jasig.cas.services.DefaultServicesManagerImpl] - Reloading registered services.
+2020-02-25 19:21:04,235 INFO [org.jasig.cas.services.DefaultServicesManagerImpl] - Loaded 1 services.
+2020-02-25 19:23:04,277 INFO [org.jasig.cas.services.DefaultServicesManagerImpl] - Reloading registered services.
+2020-02-25 19:23:04,355 INFO [org.jasig.cas.services.DefaultServicesManagerImpl] - Loaded 1 services.
+2020-02-25 19:25:04,224 INFO [org.jasig.cas.services.DefaultServicesManagerImpl] - Reloading registered services.
+2020-02-25 19:25:04,224 INFO [org.jasig.cas.services.DefaultServicesManagerImpl] - Loaded 1 services.
+2020-02-25 19:27:04,228 INFO [org.jasig.cas.services.DefaultServicesManagerImpl] - Reloading registered services.
+2020-02-25 19:27:04,233 INFO [org.jasig.cas.services.DefaultServicesManagerImpl] - Loaded 1 services.
+2020-02-25 19:29:04,237 INFO [org.jasig.cas.services.DefaultServicesManagerImpl] - Reloading registered services.
+2020-02-25 19:29:04,242 INFO [org.jasig.cas.services.DefaultServicesManagerImpl] - Loaded 1 services.
+2020-02-25 19:31:04,231 INFO [org.jasig.cas.services.DefaultServicesManagerImpl] - Reloading registered services.
+2020-02-25 19:31:04,231 INFO [org.jasig.cas.services.DefaultServicesManagerImpl] - Loaded 1 services.
+2020-02-25 19:33:04,230 INFO [org.jasig.cas.services.DefaultServicesManagerImpl] - Reloading registered services.
+2020-02-25 19:33:04,230 INFO [org.jasig.cas.services.DefaultServicesManagerImpl] - Loaded 1 services.
+2020-02-28 11:24:09,715 INFO [org.jasig.cas.services.DefaultServicesManagerImpl] - Loaded 1 services.
+2020-02-28 11:24:18,990 INFO [org.jasig.cas.util.AutowiringSchedulerFactoryBean] - Starting Quartz Scheduler now
+2020-02-28 11:24:31,312 INFO [org.jasig.cas.ticket.registry.support.DefaultTicketRegistryCleaner] - Beginning ticket cleanup.
+2020-02-28 11:24:31,343 INFO [org.jasig.cas.ticket.registry.support.DefaultTicketRegistryCleaner] - 0 tickets found to be removed.
+2020-02-28 11:24:31,343 INFO [org.jasig.cas.ticket.registry.support.DefaultTicketRegistryCleaner] - Finished ticket cleanup.
+2020-02-28 11:26:11,885 INFO [org.jasig.cas.services.DefaultServicesManagerImpl] - Reloading registered services.
+2020-02-28 11:26:11,885 INFO [org.jasig.cas.services.DefaultServicesManagerImpl] - Loaded 1 services.
+2020-02-28 11:28:11,774 INFO [org.jasig.cas.services.DefaultServicesManagerImpl] - Reloading registered services.
+2020-02-28 11:28:11,774 INFO [org.jasig.cas.services.DefaultServicesManagerImpl] - Loaded 1 services.
+2020-02-28 12:16:05,496 INFO [org.jasig.cas.services.DefaultServicesManagerImpl] - Loaded 1 services.
+2020-02-28 12:16:14,678 INFO [org.jasig.cas.util.AutowiringSchedulerFactoryBean] - Starting Quartz Scheduler now
+2020-02-28 12:16:27,575 INFO [org.jasig.cas.ticket.registry.support.DefaultTicketRegistryCleaner] - Beginning ticket cleanup.
+2020-02-28 12:16:27,659 INFO [org.jasig.cas.ticket.registry.support.DefaultTicketRegistryCleaner] - 0 tickets found to be removed.
+2020-02-28 12:16:27,663 INFO [org.jasig.cas.ticket.registry.support.DefaultTicketRegistryCleaner] - Finished ticket cleanup.
+2020-02-28 12:18:08,304 INFO [org.jasig.cas.services.DefaultServicesManagerImpl] - Reloading registered services.
+2020-02-28 12:18:08,320 INFO [org.jasig.cas.services.DefaultServicesManagerImpl] - Loaded 1 services.

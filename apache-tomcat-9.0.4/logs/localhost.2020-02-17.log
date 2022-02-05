@@ -1,0 +1,6 @@
+17-Feb-2020 15:59:32.959 INFO [main] org.apache.catalina.core.ApplicationContext.log No Spring WebApplicationInitializer types detected on classpath
+17-Feb-2020 15:59:34.005 INFO [main] org.apache.catalina.core.ApplicationContext.log Initializing Spring root WebApplicationContext
+17-Feb-2020 16:00:13.805 INFO [main] org.apache.catalina.core.ApplicationContext.log Initializing Spring FrameworkServlet 'cas'
+17-Feb-2020 16:01:40.215 INFO [main] org.apache.catalina.core.ApplicationContext.log No Spring WebApplicationInitializer types detected on classpath
+17-Feb-2020 16:01:41.355 INFO [main] org.apache.catalina.core.ApplicationContext.log Initializing Spring root WebApplicationContext
+17-Feb-2020 16:02:02.122 INFO [main] org.apache.catalina.core.ApplicationContext.log Initializing Spring FrameworkServlet 'cas'
